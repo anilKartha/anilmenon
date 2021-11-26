@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Simpson's Paradox In The Slush Pile</title>
+  <meta name="description" content="Simpson's Paradox, not racism, might be behind the discrepancy in publication acceptances between Western and minority writers.">
+
+  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+  
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+  
+  
+  <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: [
+      "MathMenu.js",
+      "MathZoom.js",
+      "AssistiveMML.js",
+      "a11y/accessibility-menu.js"
+    ],
+    jax: ["input/TeX", "output/CommonHTML"],
+    TeX: {
+      extensions: [
+        "AMSmath.js",
+        "AMSsymbols.js",
+        "noErrors.js",
+        "noUndefined.js",
+      ]
+    }
+  });
+</script>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+ <!--   <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+  
+
+  <link rel="stylesheet" type="text/css" href="/anilmenon/css/tufte.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/anilmenon/css/print.css" media="print"> -->
+
+  <!-- AM: contain class definitions specific to Anil Menon's site [ -->
+  <link rel="stylesheet" type="text/css" href="/anilmenon/css/menon.css">
+  <!-- AM: ] -->
+
+  <link rel="canonical" href="/anilmenon/simpsons-paradox-in-the-slush-pile/">
+
+  <link rel="alternate" type="application/rss+xml" title="Anil Menon's Website" href="/anilmenon/feed.xml" />
+</head>
+
+  
+  	<body >
+  
+	
+  <!--- Header and nav template site-wide -->
+<header>
+	<div class="nav-parent">
+	    <div class="logos1">
+		<a href="/anilmenon/">ANIL MENON</a>
+	    </div>
+	    <div class="theseparator"></div>
+	    
+	    
+		
+		
+		
+	    <div class=theitem1>
+		
+		    <a href="/anilmenon/about/">about</a>
+		
+	    </div>	
+		
+	    
+		
+		
+		
+	    <div class=theitem2>
+		
+		    <a href="/anilmenon/works/">novels</a>
+		
+	    </div>	
+		
+	    
+		
+		
+		
+	    <div class=theitem3>
+		
+		    <a href="/anilmenon/essays/">essays</a>
+		
+	    </div>	
+		
+	    
+		
+		
+		
+	    <div class=theitem4>
+		
+		    <a href="/anilmenon/anthologies/">anthologies</a>
+		
+	    </div>	
+		
+	    
+		
+		
+		
+	    <div class=theitem5>
+		
+		    <a href="/anilmenon/contact/">contact</a>
+		
+	    </div>	
+		
+	    
+	    <div class="thelastitem" ></div>
+	</div>
+
+
+
+
+</header>
+
+
+<!-- The CSS grid that makes up the entirety of the hero image/banner image area -->
+	<div class="post-frame">
+		<div class="post-title-div">
+		
+			<h1> Simpson's Paradox In The Slush Pile </h1>
+			<p class="subtitle">October 19, 2009</p>
+		
+		</div>
+		<div class="post-image-div">
+		
+	       <img class="mybanner-image" src="/anilmenon/assets/img/simpson/dices.gif" alt="impossible triangle with dice" />
+		
+		</div>
+		<div class="post-content-div">
+			 <article >
+	<a href=# id="top"></a>
+        <p>In 1973, a time of pitchforks, flaming bras and napalm, the University of Berkeley received a total of 12,763 graduate program applications. 8,442 apps were from men, and the remaining 4,321 apps were from women.<label for="gend1" class="margin-toggle"> ⊕</label><input type="checkbox" id="gend1" class="margin-toggle" /><span class="marginnote">Let me forestall the hate mail by quickly adding that before Al Gore invented the net, gender used to be a simple binary affair: you were either male or female; there were no in-between’s, no undecided’s, no none-of-the-above’s and no you-tell-me’s. </span> Of this hopeful lot, Berkeley admitted 3,738 men and 1,494 women. In other words, about 44% of the men were admitted compared with 35% of the women. A <em>nine-percent</em> difference. A woman applying to Berkeley’s grad programs had a 9% less chance of being admitted than a male. That, as statisticians like to joke, smelled of Fisher.</p>
+
+<p>Assuming that women candidates were as qualified as the male candidates, what could explain why the discrepancy in admission rates was so large? Sexism, of course. There was no use pointing out that Berkeley was in effing California, not Louisiana. No use pointing out that 1,494 women <em>had</em> been admitted. Token women didn’t count. Women twice as good as men didn’t count twofold. Men as gentle as temple cows didn’t count. What counted was the 9%.</p>
+
+<p>Eugene Hammel, the male Associate Dean of Graduate Studies, had the bright idea of asking Peter Bickel, a male statistics prof who was on the board of the Grad Council at Berkeley, to analyze the admissions data.<label for="study1" class="margin-toggle"> ⊕</label><input type="checkbox" id="study1" class="margin-toggle" /><span class="marginnote">Bickel, P. J., Hammel, E. A., &amp; O’Connell, J. W. <a href="https://homepage.stat.uiowa.edu/~mbognar/1030/Bickel-Berkeley.pdf" target="blank">Sex bias in graduate admissions</a>: Data from Berkeley. Science, 187(4175), 398–404, 1975. </span> The result of that analysi s by Bickel, Hammel and O’Connell is now a statistical classic. They showed that on a department by department basis, if there was a bias, it was a slight one <em>in favor</em> of admitting women over men.</p>
+
+<p>How was this possible? How could it be that at a departmental level, women were as likely, if not slightly more likely, to be admitted, but the admission rates for women were 9% lower than that of men? Was it….; Could it be….; Could it <em>really</em> be just….; ARITHMETIC!!!</p>
+
+<p>Yes. While the odds of admission did favor women on a department-by-department basis, the admission standards of different departments were not all the same. Some departments, say, Physics, had notoriously high standards. Other departments, say, Sociology, had notoriously low ones. What Bickel and gang showed was that women were applying in greater proportion to the more difficult programs rather than the easy ones, and so were getting rejected at higher rates. Men, strategically unambitious as always, were much more spread across the departments, and hence their slight disadvantage in odds was offset by the fact that more of them had sent their sweet nothings to the floozy departments. It was a tale with a statistical villain.</p>
+
+<p>The villain’s name is <a href="http://plato.stanford.edu/entries/paradox-simpson/">Simpson’s Paradox</a>. It is a statistical paradox that often arises when we calculate averages over aggregates. It sometimes happens that a statement may be true of every mixed subgroup (“Compared with men, women have a slightly higher odds of getting admitted to engineering or humanities or sciences or architecture or….”), but when you aggregate over <em>all</em> the groups, the statement turns false (“Overall, women have a significantly lower odds of getting admitted”). Simpson’s Paradox— that is, the <em>potential</em> for the paradox— plagues mixtures, heterogeneity, population studies of all kinds. It is perhaps the closest thing there is to the problem of evil in statistics.</p>
+
+<p>So how is all this relevant to science fiction? Well, say there’s this fantasy world with two groups (genders) of writers (candidates): West and Other. Both groups have more or less the same distribution of talent. There are fewer Other writers than Western ones, and some chaps belong to both groups, but never mind that. Writers send in their stories to SF&amp;F outlets (departments). Each outlet’s acceptance (admission) procedure is decided by an Editor. Not all the outlets are equally easy. Even though most outlets are in the West, the Others have a slightly better chance on a per outlet basis (because editors in this world act to encourage new voices). However, it turns out that the Others mostly apply to the harder-to-get-into outlets. Why? Well, these are the well-known ones, and if you’re in Pune, India, why send a story to the Vampire Gnome Anthology, when for the same time and postal expense and much greater potential benefit, you could send it to the New Yorker? And so it happens that there are great differences between acceptance rates for Westerners as compared to the Others. In this speculative world— hypothetical liberal world— Simpson’s Paradox, not racism, is the villain.</p>
+
+<p>***</p>
+
+<h3 id="acknowledgements">Acknowledgements:</h3>
+
+<p>The <a href="http://www.moillusions.com/impossible-dices-triangle-illusion/" target="blank">featured image</a>
+is from James Dean’s wonderful site <a href="http://www.moillusions.com/" target="blank">Mighty Optical Illusions</a>.</p>
+
+
+	$$~$$
+	<div class="post-nav">
+	<p>
+	  
+	  <a href="/anilmenon/moonshot/">☜&nbsp;Moonshot</a>
+	  
+	</p>
+	<p> 
+	 <!-- a href="#top"><div class=rotateunicode>☞</div></a -->
+	 <a href="#top">&uarr;</a>
+	</p>
+	<p> 
+	  
+	  <a href="/anilmenon/odd-gods-gods-odds/">Odd Gods, God's Odds&nbsp;☞</a>
+	  
+	</p>
+	</div>
+	</article>
+	
+
+		</div>
+	</div>
+	<span class="print-footer">Simpson's Paradox In The Slush Pile - October 19, 2009 - Anil Menon</span>
+	<footer>
+  <hr class="slender">
+  <ul class="footer-links">
+    <li><a href="mailto:hate@spam.net"><span class="icon-mail3"></span></a></li>    
+    
+      <li>
+        <a href="//www.twitter.com/twitter_handle"><span class="icon-twitter"></span></a>
+      </li>
+    
+      <li>
+        <a href="//plus.google.com/+googlePlusName"><span class="icon-google2"></span></a>
+      </li>
+    
+      <li>
+        <a href="//github.com/GithubHandle"><span class="icon-github"></span></a>
+      </li>
+    
+      <li>
+        <a href="//www.flickr.com/photos/FlickrUserID"><span class="icon-flickr3"></span></a>
+      </li>
+    
+      <li>
+        <a href="/feed"><span class="icon-rss2"></span></a>
+      </li>
+    
+      <li>
+        <a href="//vimeo.com/vimeo-id"><span class="icon-vimeo2"></span></a>
+      </li>
+    
+      <li>
+        <a href="//www.linkedin.com/"><span class="icon-linkedin"></span></a>
+      </li>
+      
+  </ul>
+<div class="credits">
+<span>&copy; 2021 &nbsp;&nbsp;ANIL MENON</span></br> <br>
+</div>  
+</footer>
+
+	</body>
+</html>

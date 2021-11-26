@@ -1,31 +1,1316 @@
----
-layout: null
-nav_exclude: true
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>Anil Menon&apos;s Website</title>
+    <description>Anil Menon&apos;s Website</description>
+    <link>/anilmenon/</link>
+    <atom:link href="/anilmenon/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 25 Nov 2021 22:07:25 -0500</pubDate>
+    <lastBuildDate>Thu, 25 Nov 2021 22:07:25 -0500</lastBuildDate>
+    <generator>Jekyll v4.2.1</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>What Is Speculative About Speculative Fiction?</title>
+        <description>&lt;div class=&quot;epigraph&quot;&gt;&lt;blockquote&gt;&lt;p&gt; &apos;A cage went in search of a bird.&apos; &lt;/p&gt;&lt;footer&gt;&amp;mdash;Franz Kafka, insurance lawyer.&lt;/footer&gt;&lt;/blockquote&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;speak-o-cow&quot;&gt;Speak, O Cow&lt;/h2&gt;
+
+&lt;p&gt;`Speculative fiction’ is &lt;label for=&quot;ash01&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ash01&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/anilmenon/assets/img/Anstey-poem-frag.png&quot; style=&quot;width: 50vw; min-width:335px&quot; /&gt;&lt;br /&gt; &lt;/span&gt; a collective term for stories that are committed to the narrative construction of new worlds rather than the description of existing worlds. By ‘world’ I do not mean planets, satellites, spaceships and moons, but the entirety of the narrative setting in a which a story breathes. For example, the world of Sherlock Holmes or the the world of Austen’s &lt;em&gt;Emma&lt;/em&gt; or the world of Roy Andersson or the natural world. For our purposes, a world is “simply” that which is evoked when a mind encounters a sentence. There is no right or wrong way to conceive a world. One imagines, that is all. Some of my work falls under speculative fiction, and this essay is an overview of what I have learned writing these stories.&lt;/p&gt;
+
+&lt;p&gt;The writer Peter De Vries— usually sideswiped with the qualifying adjective “comic”— remarked &lt;a href=&quot;https://www.newyorker.com/magazine/2004/05/24/riches-of-embarassment&quot; target=&quot;blank&quot;&gt;in an interview&lt;/a&gt; that the cow shouldn’t be asked to analyze milk. The bovine, however, doesn’t need to be asked to opine. Read enough stories and it’s when, not if, one will start to write them. Write enough stories and it’s when, not if, one will start to moo about the art of the story. Last time I checked on Amazon, there were about 22,000 books on writing fiction and only 2,000 books on quantum mechanics. The inescapable conclusion is that writing fiction is far trickier and more profitable than solving inhomogeneous wave equations with nonlinear boundary conditions over the complex number domain. Why then yet another tome?&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/anilmenon/assets/img/tomgauld-jetpack11.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;© Tom Gould, &lt;a href=&quot;https://drawnandquarterly.com/youre-all-just-jealous-my-jetpack.&quot; target=&quot;blank&quot;&gt;&lt;em&gt;You’re All Just Jealous of My Jetpack&lt;/em&gt;&lt;/a&gt;. Drawn &amp;amp; Quarterly Press. (2013).&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;I would offer my excuses, but since I have no desire to add to the 20,000+ excuses already in circulation, I’ll dispense with the noisy throat-clearing and just get on with it.&lt;/p&gt;
+
+&lt;h3 id=&quot;deciding-genre&quot;&gt;Deciding Genre&lt;/h3&gt;
+
+&lt;p&gt;My interest here is in speculative fiction (spec-fic). Treated as a noun, the problem of figuring out a text’s genre is quite similar to the problem of sexing chickens. Apparently, day-old male chicks are indistinguishable from female chicks, and making this distinction (sexing) is crucial for industrial poultry farming.&lt;label for=&quot;chick1&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;chick1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/anilmenon/assets/img/Martin-chick-sexer-book.jpg&quot; /&gt;&lt;br /&gt;R. D. Martin. &lt;em&gt;The Specialist Chick Sexer.&lt;/em&gt; Bernal Publishing, 1994.&lt;/span&gt; Novice handlers are hopeless at rear analysis. Fortunately, expert chick handlers can turn novice handlers into expert differentiators simply by providing a steady stream of accurate and timely yes/no feedback. The experts can’t give reasons for &lt;em&gt;how&lt;/em&gt; they made such-and-such distinction, but it turns out reasons aren’t needed. Indeed, such reasons get in the way of training the novices. All that matters is the yes/no feedback; the brain “deep learns” the rest. The technical term for this magical feat is &lt;a href=&quot;http://cogprints.org/3255/1/chicken.pdf&quot; target=&quot;blank&quot;&gt;perceptual learning&lt;/a&gt;. Analogously, a novice scholar or critic may be initially befuddled as to why, say, Kim Stanley Robinson’s &lt;em&gt;Years of Tears and Salt&lt;/em&gt;  is not admitted into the same genre as David Mitchell’s &lt;em&gt;Cloud Atlas&lt;/em&gt;. By simply hanging out with the right experts however, they too can learn how to intuit the genre from the intimate tattle of the paratextual signals.&lt;/p&gt;
+
+&lt;p&gt;There is an alternative &lt;label for=&quot;faul1&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;faul1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;‘Let the writer take up surgery or bricklaying if  he is interested in technique.’   —William Faulkner, &lt;em&gt;The Paris Review&lt;/em&gt; (1956). &lt;/span&gt; to this carceral approach. This involves reframing fictive speculation— the use of speculation in stories— as a verb, as a technique. Consider how the color of an object depends on the viewer, but its manipulation is nevertheless a vital part of the artist’s toolkit. In much the same way, the classification of a work as speculative/non-speculative could be argued to death, but speculation as a technique or group of techniques could be a part of &lt;em&gt;every&lt;/em&gt; writer’s toolkit.&lt;/p&gt;
+
+&lt;p&gt;Before continuing, it’s worth clarifying that there is no such thing as “the imagination”. There is no module in our brains responsible for churning out widgets branded with little square roots of -1. &lt;em&gt;Ah ha&lt;/em&gt;, we say, picking one up, &lt;em&gt;a nice specimen of an imaginative thought&lt;/em&gt;. Treating “imagination” as a kind of faculty is simply a way of talking. A convenience, that is all.&lt;/p&gt;
+
+&lt;h3 id=&quot;imagining-imagination&quot;&gt;Imagining Imagination&lt;/h3&gt;
+
+&lt;p&gt;Imaginative thought, at its freest, is unconstrained by the facts of the natural world or the necessities of logic.  This kind of thinking is common among young childhood and the mentally ill.&lt;label for=&quot;pit1&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;pit1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;Pitcher, E. G., &amp;amp; Prelinger, E. &lt;em&gt;Children tell stories&lt;/em&gt;. International Universities Press. (1963). &lt;/span&gt; For example, here is a story from the &lt;a href=&quot;https://psycnet.apa.org/record/1964-07977-000&quot; target=&quot;blank&quot;&gt;Pitcher-Prelinger collection&lt;/a&gt; of 360 stories. The narrator is a five-year-old girl, Tracy, H:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;There was a boy named Johnny Hong Kong and finally he grew up and went to school and after that all he ever did was sit all day and think. He hardly even went to the bathroom. And he thought every day and every thought he thought up his head got bigger and bigger. One day it got so big he had to go live up in the attic with trunks and winter clothes. So his mother bought some gold fish and let them live in his head— he swallowed them— and every time he thought, a fish would eat it up until he was even so he never thought again, and he felt much better.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Now&lt;label for=&quot;steve1&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;steve1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/anilmenon/assets/img/SteveMartinLarge.jpg&quot; /&gt;&lt;br /&gt;Warner Bros. (1977).&lt;/span&gt; here is a story from a Steve Martin comedy album, &lt;a href=&quot;https://en.wikipedia.org/wiki/Let%27s_Get_Small&quot; target=&quot;blank&quot;&gt;&lt;em&gt;Let’s Get Small&lt;/em&gt;&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;You know what I’m talking about. I like to get small. It’s very dangerous for kids, because they get realllly small. I know I shouldn’t get small when I’m driving, but I was drivin’ around the other day and a cop pulls me over… says, ‘Hey, are you small?’ I say, ‘No, I’m tall.’ He says, ‘I’m gonna have to measure you.’ They give you a little test with a balloon. If you can get inside it, they know you’re small… and they can’t put you in a regular cell either, because you walk right out.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Let’s wet our beaks with one more pairing. Here is two-year-old Daniel:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;He broke it. He’s O.K. He didn’t broke it. It’s all right. The little boy fixed it.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And here is a fragment from Samuel Beckett’s &lt;em&gt;The Unnameable&lt;/em&gt; (1953):&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I don’t know. I’ll never know, in the silence you don’t know, you must go on, I can’t go on. I’ll go on.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It is not easy for an adult to regain the effortless disregard of children for natural ontology and Aristotelian logic. Nor is it a simple matter of mere disregard either. Beckett, as far as I know, is not trying to mimic a two-year-old’s storytelling style. Similarly, Martin, in his memoir &lt;em&gt;Born Standing Up: A Comic’s Life&lt;/em&gt; begins by saying “My most persistent memory of stand-up is of my mouth being in the present and my mind being in the future: the mouth speaking the line, the body delivering the gesture, while the mind looks back, observing, analyzing, judging, worrying, and then deciding when and what to say next.” Does this sound like a child at play? When adults imagine, it is perhaps more akin to a repurposing, where certain cognitive freedoms of childhood are brought to bear, partly consciously, on adult concerns.&lt;/p&gt;
+
+&lt;p&gt;It may be that when adults imagine, it includes imagining being imaginative. And that meta-effort is informed by memories of childhood, not necessarily recalled, but shaping the imagining nonetheless.&lt;/p&gt;
+
+&lt;p&gt;Our capacity and willingness&lt;label for=&quot;seb1&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;seb1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/anilmenon/assets/img/SebastianBrantPoem.png&quot; style=&quot;width: 50vw; min-width:335px&quot; /&gt;&lt;br /&gt; &lt;/span&gt; to imagine has always been seen as a mixed good. Imaginary friends are indulged in children but not in adults. Why should imaginary worlds be treated any differently? Curiously for a verb, the act of imagining feels like a habitation outside of time. The great anxiety when novels became mass mediums was that readers would lose themselves in their imaginary worlds. The tension between an appreciation for the novelty and opportunity that imagination generates and the anxiety of losing social control, heightened after printed books took over the task of carrying words. It took, and it still takes, about fifteen years to build a literate person. In the fifteenth century, a book could be printed in a few months. Or “within a day”, according to Gutenberg’s contemporary, Sebastian Brant, the German satirist and bestselling author of &lt;em&gt;Ship of Fools&lt;/em&gt; (1494), who composed a poem to celebrate the “new” technology.&lt;/p&gt;
+
+&lt;p&gt;Predictably, not everyone in the \(15^\mbox{th}\) century was as enthused as Brant with the flood of ideas. Resistance to the unfettering of the human imagination can be seen in three areas: science, business, and literature.&lt;/p&gt;
+
+&lt;h3 id=&quot;imagination-as-fintech&quot;&gt;Imagination as Fintech&lt;/h3&gt;
+
+&lt;p&gt;Enlightment-era science, rooted in a triumphalist narrative of victory over the superstitions and mythologizing tendencies of the past, was one of the battlegrounds. British Raj-era physicist Sir Jagdish Chandra Bose (Jagdishchandr Bose)— a pioneer in experimental electromagnetism, microwave research, radio waves, properties of semiconductor materials and chronobiology— received much criticism in the second-half of his career for his “emotional style” and speculative claims about plant life. The respected biologist Dr. Gerta von Ubisch, Bose’s contemporary, writing in &lt;em&gt;Der Biologe&lt;/em&gt; about his work on plant response, emphasized that:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It must be our duty to stop the mixing of exact science research with the nice wonderful fantasies. We want to have fairy tale books and science books; but we don’t want that the popular literature becomes a hybrid between the two…”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Bose must have know what he was up againt. In the \(19^\mbox{th}\) century, the normative model for the scientist was the dapper accountant, with a stolid attachment to facts and an aversion for fancy. This is why in 1870, when John Tyndall gave a talk to the British Association for the Advancement of Science on “The Scientific uses of the Imagination”, the English press didn’t react well.&lt;label for=&quot;dast1&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;dast1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;Lorraine Daston. Fear and Loathing of the Imagination in Science. &lt;em&gt;Daedalus&lt;/em&gt;. 127(1), pp. 73-95. (1998). &lt;/span&gt; The London Times snorted:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The glory of a Natural Philosopher appears to depend less on the power of his imagination to explore minute recesses or immeasurable space than on the skill and patience with which, by observation and experiment, he assures us of the certainty of these invisible operations…. [Tyndall] confesses Mr. Darwin ‘has drawn heavily upon time and adventurously upon matter.’ We ask ourselves whether we are listening to one experimental philosopher describing the achievement of another experimental philosopher. We had been under the impression that Natural Philosophers drew no bills.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;To “draw a bill” is akin to issuing a postdated cheque. The London Times was saying natural philosophers shouldn’t ask the audience to accept their claims as true on the grounds that they would become true in the indeterminate future. Scientists didn’t deal in a postdated truths. In short, natural philosophers didn’t and shouldn’t &lt;em&gt;speculate&lt;/em&gt;. For all its celebration of creativity, Science continues to manifest its passive-agressive behavior of praising the imagination with one breath and urging caution in the next.&lt;/p&gt;
+
+&lt;p&gt;The use of fiscal analogies in the context of imagination was to be expected, because from the sixteenth century onwards, innumerable credit-based profit-making schemes were proposed. Indeed, the British Raj was one of the most spectacular success of such scheming, or “speculations” as they came to be called.&lt;/p&gt;
+
+&lt;p&gt;Speculation was the imagination bent towards making a profit. By the mid-\(17^\mbox{th}\) century, along with the invention of the joint-stock company and the share market (~1600s), the word “speculate” had acquired a thoroughly unsavory reputation. It was linked with colonial adventurism, economic and sexual exploitation, social disruption and spiritual coarseness.&lt;/p&gt;
+
+&lt;p&gt;Washington Irving, who coined the phrase “The Almighty Dollar”,&lt;label for=&quot;irv01&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;irv01&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;Usually cited by despairing Cassandras watching from the sidelines of the latest speculation bubble. &lt;/span&gt; best captured the mood of the century in his much-cited essay &lt;a href=&quot;https://www.laphamsquarterly.org/about-money/stuff-dreams-are-made&quot; target=&quot;blank&quot;&gt;&lt;em&gt;A Time Of Unexampled Prosperity&lt;/em&gt;&lt;/a&gt; (1855):&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Now is the time for speculative and dreaming or designing men. They relate their dreams and projects to the ignorant and credulous, dazzle them with golden visions, and set them maddening after shadows…. Speculation is the romance of trade and casts contempt upon all its sober realities. It renders the stock jobber a magician and the exchange a region of enchantment. It elevates the merchant into a kind of knight-errant, or rather a commercial Quixote…. As he sits musing over his ledger with pen behind his ear, he is like La Mancha’s hero in his study dreaming over his books of chivalry. His dusty countinghouse fades before his eyes, or changes into a Spanish mine: he gropes after diamonds or dives after pearls. The subterranean garden of Aladdin is nothing to the realms of wealth that break upon his imagination.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Many novels&lt;label for=&quot;ming1&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ming1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;Scholars of the Victorian novel have long known there is nothing coincidental about the realist novel’s connection with financial speculation. See, for example, John Vernon’s eminently readable, &lt;em&gt;Money and Fiction: Literary Realism in the Nineteenth and Early Twentieth Century&lt;/em&gt; (1984) &lt;/span&gt; of the era had a subplot or plot centred around a speculative venture gone awry. The irony of &lt;em&gt;realist&lt;/em&gt; novels like Trollope’s &lt;em&gt;The Wav We Live Now&lt;/em&gt; or Gaskell’s &lt;em&gt;North and South&lt;/em&gt; dealing with &lt;em&gt;speculative&lt;/em&gt; tropes foreshadows the irony of &lt;em&gt;science&lt;/em&gt; fiction being praised for its &lt;em&gt;imaginative&lt;/em&gt; tropes.&lt;/p&gt;
+
+&lt;p&gt;The story goes that &lt;label for=&quot;far1&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;far1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;I. Bernard Cohen. &lt;a href=&quot;https://www.jstor.org/stable/986790&quot; target=&quot;blank&quot;&gt;Faraday and Franklin’s ‘Newborn Baby’&lt;/a&gt;. Proc. of the American Philosophical Soc. 131(2), pp. 177-182. 1987. &lt;/span&gt; when Gladstone asked Michael Faraday about the utility of this new-fangled thing, electromagnetism, the scientist replied: ‘soon you’ll be able tax it’. The key word here is “soon”. As in, “not immediately.” The present value of something is calculated on its future utility. Similarly, the products of the imagination need the reader’s ‘willing suspension of disbelief’ because&lt;/p&gt;
+
+&lt;p&gt;But doesn’t &lt;em&gt;any&lt;/em&gt; work of fiction take the reader’s attention? They do, but the difference is that if the work belongs to a well-established genre or is from a reputed author or publishinng house or has flattering blurbs, then they establish the author’s creditworthiness.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Img1&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Img2&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Img3&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Img 4&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;d1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;d2&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;d3&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;d4&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;However, there is one fundamental constraint on the imagination. Imaginative thought does not, and cannot, create something from nothing. Nelson Goodman almost got it right:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“We have come to think of the actual as one among many possible worlds. We need to repaint that picture. All possible worlds lie within the actual one.”&lt;br /&gt;  —Nelson Goodman, &lt;em&gt;Fact, Fiction &amp;amp; Forecast&lt;/em&gt; (1983).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The above is a fictional claim. It may be true or false or neither or both. However, if we replace ‘possible’ with ‘conceivable’, then we get a fact:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We have come to think of the actual as one among many &lt;em&gt;conceivable&lt;/em&gt; worlds. We need to repaint that picture. All &lt;em&gt;conceivable&lt;/em&gt; worlds lie within the actual one.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The conceivable does not need to be either possible or visualizable or representable.&lt;/p&gt;
+
+&lt;p&gt;A story consists of three kinds of sentences. There are (1) the sentences the author writes. This is the &lt;em&gt;text&lt;/em&gt;. Then there are (2) the sentences that don’t need to be written. That’s because the reader and the author (may) have a lot in common. They share a great many &lt;em&gt;contexts&lt;/em&gt;.&lt;label for=&quot;pand01&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;pand01&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/anilmenon/assets/img/closure-panda-transp.png&quot; /&gt;&lt;br /&gt; &lt;/span&gt; For example, if I say it was raining”, then there is no need for me add that it was raining water. The reader knows what happens when it rains. Finally, there are (3) the sentences that the reader ‘writes’.&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;cloj1&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cloj1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt; ‘Like the concept of brunch, Clojure is so elegant that it’s difficult to tell anyone anything about it without somehow improving them.’ —Alan Dipert, forward to &lt;em&gt;Clojure For The Brave And True&lt;/em&gt;. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Closure has nothing to do with the programming language Clojure, but “closure” too is one of those words that instantly makes you a better person, simply for knowing what it means. Let’s get to it then.&lt;/p&gt;
+
+&lt;h3 id=&quot;closure&quot;&gt;Closure&lt;/h3&gt;
+&lt;p&gt;A story consists of three kinds of sentences. There are (1) the sentences the author writes. This is the &lt;em&gt;text&lt;/em&gt;. Then there are (2) the sentences that don’t need to be written. That’s because the reader and the author (may) have a lot in common. They share a great many &lt;em&gt;contexts&lt;/em&gt;.&lt;label for=&quot;pand01&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;pand01&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/anilmenon/assets/img/closure-panda-transp.png&quot; /&gt;&lt;br /&gt; &lt;/span&gt; For example, if I say it was raining”, then there is no need for me add that it was raining water. The reader knows what happens when it rains. Finally, there are (3) the sentences that the reader ‘writes’. An author can write “The editor said no” and the reader can fill in the rest of the Shakespearean tragedy. Gestalt theorists labeled this tendency— a superpower really— to complete things, to guess the unsaid, to finish the pattern, as the “principle of closure”.&lt;/p&gt;
+
+&lt;p&gt;This ability is so tied to comprehension, it can be put to diagnostic use. In “cloze tests”, psychologists measure a person’s comprehension ability by asking them to supply missing words from a text. Dr. Nasrin Mostafazadeh and her colleagues at the University of Rochester have extended these tests to story comprehension.  For example, here are the first four lines of a story, taken from the &lt;a href=&quot;https://cs.rochester.edu/nlp/rocstories/&quot; target=&quot;blank&quot;&gt;lab’s homepage&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Karen was assigned a roommate her first year of college. Her roommate asked her to go to a nearby city for a concert. Karen agreed happily. The show was absolutely exhilarating.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Now, which of the following two sentences is “the right ending” (their words) for the story:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Karen hated her roommate.&lt;/li&gt;
+  &lt;li&gt;Karen became good friends with her roommate.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The right answer, of course, is #2. But let’s consider. Is that the right answer? Or is merely the default one? Were an author to pick #2, it would make Karen all too normal. Imagine how much more interesting Karen would become, were the author to pick the first ending? What kind of person would hate someone who’s given her a good time? Closure entails reaching for the nearest default solution, and when authors provide a different one, they create a quantum of speculation.&lt;/p&gt;
+
+&lt;p&gt;The Gestalt theorists weren’t the first to grasp the importance of closure in leading us astray. Erotic poetry would, of course, be lost without it. Let’s wet our beaks with an example:&lt;/p&gt;
+
+&lt;p&gt;It is pitch-dark outside,&lt;br /&gt;
+My husband left today,&lt;br /&gt;
+And the house is deserted.&lt;br /&gt;
+Please, neighbor, do keep watch:&lt;br /&gt;
+I don’t want to be burgled. &lt;br /&gt;
+  —Hāla: &lt;a href=&quot;https://en.wikipedia.org/wiki/Gaha_Sattasai&quot; target=&quot;blank&quot;&gt;&lt;em&gt;Sattasai&lt;/em&gt;&lt;/a&gt; [335]&lt;/p&gt;
+
+&lt;p&gt;Indeed. But closure operates at subtler levels as well. The reader can do more than complete a pre-imagined pattern. They may see patterns where they are none. They can’t help feeling that the text seems to be &lt;em&gt;suggesting&lt;/em&gt; less straightforward readings.&lt;/p&gt;
+
+&lt;p&gt;Indeed. The Sanskrit aestheticians took this feeling seriously, perhaps more so than any other group of pre-moderns, and the result was an aesthetics of affect and suggestion of extraordinary sophistication.&lt;label for=&quot;ing01&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ing01&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;In the introduction to his &lt;a href=&quot;http://www.gianfrancobertagni.it/materiali/tantra/ingalls.pdf&quot; target=&quot;blank&quot;&gt;translation&lt;/a&gt;, Daniel Ingall comments (page 28) ‘… there is nothing in our Western classical (Greek and Latin) tradition of criticism that corresponds to &lt;em&gt;rasa&lt;/em&gt; and nothing that corresponds to &lt;em&gt;dhvani&lt;/em&gt; in the grand dimensions in which Änanda and Abhinava conceived it.’  &lt;/span&gt; The concepts of &lt;em&gt;dhvani&lt;/em&gt; (suggestion), along with &lt;em&gt;rasa&lt;/em&gt; (the savoring of affects), brought to maturity in a &lt;a href=&quot;http://www.gianfrancobertagni.it/materiali/tantra/ingalls.pdf&quot; target=&quot;blank&quot;&gt;pair of works&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Anandavardhana&quot; target=&quot;blank&quot;&gt;Änandavardhana&lt;/a&gt;’s ninth-century &lt;em&gt;Dhvanyāloka&lt;/em&gt; and his disciple &lt;a href=&quot;https://en.wikipedia.org/wiki/Abhinavagupta&quot; target=&quot;blank&quot;&gt;Abhinavagupta&lt;/a&gt;’s equally celebrated commentary (&lt;em&gt;The Locana&lt;/em&gt;), ensured that theorizing closure became one of Sanskrit aesthetics’ main preoccupations. Let’s wet our beaks again:&lt;/p&gt;
+
+&lt;p&gt;White herons circle against dark clouds&lt;br /&gt;
+that paint the sky with their wet lustre.&lt;br /&gt;
+Winds carry the small rain.&lt;br /&gt;
+The peacocks, friends of the clouds, cry out with joy.&lt;br /&gt;
+Let all this be: my heart is hard;&lt;br /&gt;
+I am Rama and can bear it all.&lt;br /&gt;
+But Vaidehl, how will she live?&lt;br /&gt;
+Alas, my queen, alas, be brave!&lt;br /&gt;
+  —Änandavardhana, &lt;em&gt;Dhvanyâloka&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;First the context. In his &lt;em&gt;Locana&lt;/em&gt;, Abhinavagupta comments on his guru Änanda’s use of an apparently well-known verse to show how a literal meaning (in this case, “Rama” pointing to the individual,
+Lord Rama) is displaced by a suggested meaning. But which meaning?&lt;/p&gt;
+
+&lt;p&gt;A paraphrase of the translation due to &lt;a href=&quot;http://www.gianfrancobertagni.it/materiali/tantra/ingalls.pdf&quot; target=&quot;blank&quot;&gt;Ingalls, et. al.&lt;/a&gt; (page 204):&lt;label for=&quot;miro1&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;miro1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/anilmenon/assets/img/Blue-II-1961-Joan-MiroB.jpg&quot; /&gt;&lt;br /&gt; &lt;/span&gt; Lord Rama’s missus Sita (Vaidehi) has been abducted and the sky, the winds, the herons and the peacocks together evoke sorrow. Everything is in their rightful place, but for Sita, and so they displace joy from its rightful place, his heart. Rama reports on his state of mind. But in referring to himself (Line 8: I am Rama), he needs to evoke a particular set of associations, because “Rama” denotes an infinite number of things. Even the relevant subset of denotations is infinite, and so beyond the reach of any mere enumeration. What the poet can do however, is to suggest, and thus sidestep enumeration altogether. Rama reports he’s hard-hearted and referring to the travails already endured, declares he will endure. But having evoked himself, his wife is inseparably evoked. How will she endure, wonders Rama. He sees her breaking down, and cries out: &lt;em&gt;Alas, my queen, alas, be brave.&lt;/em&gt; My &lt;em&gt;queen&lt;/em&gt;? The combination of “my” (intimacy) and “queen” (formal) is a reminder to her that the situation is not a private one. He knows her suffering will be enjoyed by her tormentors. A &lt;em&gt;queen&lt;/em&gt; endures.&lt;/p&gt;
+
+&lt;p&gt;When Lord Rama says “I am Rama”, the words suggest a deeper tragedy. Vaidehi and he are one, but at the same time, he knows she’s not Rama and hence suffers differently.&lt;/p&gt;
+
+&lt;p&gt;Is this what the poet intended? Or are their readers (in this case, very sophisticated readers) only making cloud atlases, they way poor Percival Lowell did with his &lt;a href=&quot;https://publicdomainreview.org/collection/martian-canal-maps&quot; target=&quot;blank&quot;&gt;Martian canals&lt;/a&gt;? Science may not be able to indulge such liberties, because science has to deal with ideas that are not necessarily false. Art, however, was invented to deal with objects and ideas that are not necessarily true. Or as Clayton Hamilton explained in his insightful little book, &lt;em&gt;The Art of Fiction&lt;/em&gt; (1911):&lt;label for=&quot;boy01&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;boy01&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/anilmenon/assets/img/Zacharevic-Boy.jpeg&quot; /&gt;&lt;br /&gt; &lt;/span&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;‘It is only in the vocabulary of very careless thinkers that the words truth and fiction are regarded as antithetic. A genuine antithesis subsists between the words fact and fiction; but fact and truth are not synonymous. The novelist forsakes the realm of fact in order that he may better tell the truth, and lures the reader away from actualities in order to present him with realities…. Actuality is the realm of fact, reality the realm of truth. The universe as we apprehend it with our senses is actual; the laws of the universe as we comprehend them with our understanding are real.’&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Closure is not the only thing readers do, but it is perhaps the most important. But how do readers &lt;em&gt;close&lt;/em&gt; the story? Perception is similar to motion in that it makes no sense unless we also point to a frame of reference. In Gestalt theory, this frame is referred to as the &lt;em&gt;ground&lt;/em&gt;. In literature, it masquerades under another name: context.&lt;/p&gt;
+
+&lt;h2 id=&quot;context&quot;&gt;Context&lt;/h2&gt;
+
+&lt;p&gt;What do we know so far? A story consists of three kinds of sentences. Sentences the author writes (&lt;em&gt;text&lt;/em&gt;). Sentences that don’t need to be written (&lt;em&gt;context&lt;/em&gt;). And sentences that the reader ‘writes’ (&lt;em&gt;closure&lt;/em&gt;).&lt;/p&gt;
+
+&lt;p&gt;Should I have explained what the number ‘three’ means?&lt;/p&gt;
+
+&lt;p&gt;If you were an octopus, probably. But otherwise, no. Numbers are part of our shared context.&lt;/p&gt;
+
+&lt;p&gt;The context is peculiar stuff. It’s the dark matter, not just of fiction, but of any text. We’re so unaware of the gazillion contexts in which we’re submerged, when we’re reminded of the fact, it often comes as a shock.&lt;/p&gt;
+
+&lt;p&gt;Remember we agreed that if it was raining, there’s no need to say it was raining water? Fasten your seatbelt.&lt;/p&gt;
+
+&lt;p&gt;We’re on Saturn. &lt;em&gt;It is raining.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;But not water.&lt;label for=&quot;note1&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;note1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;Perhaps inevitably, Baines &amp;amp; Delitsky wrote a &lt;a href=&quot;https://link.springer.com/chapter/10.1007/978-1-4614-7473-9_9&quot; target=&quot;blank&quot;&gt;science-fiction story&lt;/a&gt; around the idea. &lt;/span&gt; NASA scientists Kevin Baines and Mona Delitsky showed that lightning turns methane in Jupiter’s atmosphere to soot. As the soot (carbon) falls, Saturn’s extreme atmospheric pressure morphs it into coruscating diamonds. On Saturn, it can rain diamonds.&lt;/p&gt;
+
+&lt;p&gt;See what we did here? In science-fiction, which is a subgenre of speculative fiction, writers play with the &lt;em&gt;material&lt;/em&gt; context. They play with our shared understanding of materiality and subvert our expectations. The resultant surprise is an intellectual surprise and evokes wonder, that most intellectual of emotions. Or as the Sanskrit aestheticians called it, the &lt;em&gt;adhbhut rasa&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Though authors don’t need to write sentences to inform a contemporary human reader that buses have four wheels or Christians have many different denominations or people generally feel sad when loved ones die before their time, et cetera, stories may still make references to buses, Christians and what people feel at the death of loved ones. This may be interpreted as an import of the context &lt;em&gt;into&lt;/em&gt; the story. However, “import” suggests stories have a clear inside and outside, and that is simply not true. It is perhaps better to pick a different conceptual metaphor, one that the old Gestalt theorists would approve of, and think of context as something that &lt;em&gt;grounds&lt;/em&gt; the text.&lt;/p&gt;
+
+&lt;p&gt;This grounding is mostly done through what linguists call “lexical words” or “content words”; that is, nouns, verbs, adverbs, and adjectives. Conversely, a text gets decontextualized through function words; that is, auxiliary verbs, conjunctions, determiners, modals, prepositions, pronouns, qualifiers, and question words. When we speak, these are the word we tend not to stress.&lt;/p&gt;
+
+&lt;p&gt;Function words are words like &lt;em&gt;that, this, those, these a, an, the&lt;/em&gt;. They are words like &lt;em&gt;some, both, most, many, a few&lt;/em&gt; and &lt;em&gt;may, might, can, could, will&lt;/em&gt;. They can identify but not grant an identity:  &lt;em&gt;she, they, he, it, him, her, you, me.&lt;/em&gt; Function words are context-sucking vampires. They decouple text from any specific person, place, quantity, quality or time. The lexical density— the ratio of lexical words to total number of words in a text— is one measure of that decoupling. Higher the lexical density, greater the specificity or concreteness.
+For example, consider the following two sentences.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;___  ___  the ___  on the ____&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Any idea what the sentence is referring to? Now consider this sentence:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Frodo put ___  ring ___  ___  ground.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The first sentence has only function words, the second only lexical words. It is much easier to close the sentence in the second case. Lexical words act like hooks and cables for attaching a text to a familiar world. Note that lexical words are not the same thing as context. For example,&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Although &lt;strong&gt;JaxP&lt;/strong&gt; could be in &lt;strong&gt;holoprotosis&lt;/strong&gt;, &lt;strong&gt;Swarm&lt;/strong&gt; was &lt;strong&gt;quantizing&lt;/strong&gt; that the &lt;strong&gt;Waiting&lt;/strong&gt; wouldn’t be in &lt;strong&gt;Paris&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The words in bold font are all lexical words. But they probably don’t point to anything in the reader’s world. They might as well be functon words. Gobbledygook is the unofficial term for lexical words that don’t mean anything but act as if they do. Gobbledygook isn’t uncommon in science-fiction, where the intent is usually to convey ambience or to hand-wave characters through an unsolvable technical crisis.&lt;/p&gt;
+
+&lt;p&gt;In short, mere specificity does not necessarily make things clearer or less disorienting or more grounded. Nor should it be concluded that function words are bad and lexical words good.&lt;/p&gt;
+
+&lt;p&gt;But there are many other contexts to play with: philosophical, linguistic, social, economic and so on. Though I have used the word “play”, it needn’t result in delight or wonder or any other specific emotion. Human beings are too varied for any such silly restrictions.&lt;/p&gt;
+
+&lt;p&gt;Speculative fiction is fiction in which “the” context is a key part of the story. Spec-fic includes genres like science-fiction, fantasy, magic-realism, irrealism, surreal fiction, and many others where the context isn’t a given. In ordinary fiction (representational fiction) the context stands outside the story, something like a taken-for-granted domestic servant.&lt;/p&gt;
+
+&lt;p&gt;This doesn’t mean anything goes in the telling of the story. On the contrary, the author has to be even more careful about mismanaging the reader’s expectations. It’s a difficult form to master and one easy to mangle. All stories are a balance between statement and suggestion. Representational fiction, or mainstream fiction as it’s usually called, the kind of naturalistic writing taught in many MFA programs and English departments, tends to focus on suggestion derived from interiority. Speculative fiction broadens the possibilities of suggestion to the story’s externals, its contexts.&lt;/p&gt;
+
+&lt;p&gt;If you’re new to spec-fic, then it might take a while to get comfortable with the ambiguity, uncertainty and novelty in the stories. Some sentences might seem like puzzles (Samuel Delaney: “The red sun is high, the blue low”); others may appear factually incorrect (Greg Egan: “Okay, he’s dead. You can talk to him now.”); some play with the subjunctive mood (Anil Menon: “Of course, it is not necessary to assume Padma had always been Indian. She is certainly Indian now.”); and some play for play’s sake:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;‘At first sight everything may lead to believe that Palafox is a chick, a simple chick, after his eggshell breaks open, a baby ostrich like many that are born every day in the world, with long legs and an elongated neck, a very ordinary baby giraffe, with yellow fur and brown spots, one of these silent and fearsome leopards, ready to eat a man, a blue shark like all blue sharks, bloodthirsty, all in all another bothersome mosquito, with its very customary trunk, an ordinary baby elephant, but one begins to doubt. Palafox croaks. Palafox licks our face and our hands. So our certainties vacillate. Let’s take a closer look at Palafox…’
+   —Eric Chevillard, &lt;em&gt;Palafox&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Chevillard’s Palafox does not have a body we can categorize, and accordingly, a mind we cannot categorize. And that is the point. Literature, we are often told, tells us what it means to be human. How limiting. How tragically narrow in conception. One might as well say: literature is about being Asian or a man or a clown. We can do better.&lt;/p&gt;
+
+&lt;h2 id=&quot;kinds-of-minds&quot;&gt;Kinds of Minds&lt;/h2&gt;
+
+&lt;p&gt;It seems to be generally accepted in narratology that the task of narrative fiction is to represent consciousness (What? did you think it was to entertain the reader?). Dorrit Cohn was an indefatigable proponent of this view, and in her book &lt;em&gt;Transparent Minds: Narrative Modes for Presenting Consciousness in Fiction&lt;/em&gt;, quotes an earlier pioneer Kate Hamburger with approval:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Narrative fiction is the only literary genre, as well as the only kind of narrative, in which the unspoken thoughts, feelings, perceptions of a person other than the speaker can be portrayed.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;But why should we restrict consciousness to human consciousness? Or to put it more provocatively, human bodies? Mainstream fiction has no dearth of unconventional narrators. Ian McEwan’s &lt;em&gt;Nutshell&lt;/em&gt; is narrated by a foetus. Ditto for Muriel Spark’s &lt;em&gt;The First year of my life.&lt;/em&gt; Kafka’s &lt;em&gt;Metamorphosis&lt;/em&gt; is haunted by a bug, quite literally. Not to be done, Julian Barnes’ &lt;em&gt;A History of the World in 10 1/2 Chapters&lt;/em&gt; is narrated by a woodworm. Tibor Fischer’s &lt;em&gt;The Collector Collector&lt;/em&gt; has a chatty antique bowl, while a self-aware supermarket trolley keeps us up-to-date in Bo Fowler’s &lt;em&gt;Scepticism Inc.&lt;/em&gt; Alice Sebold’s novel &lt;em&gt;The Lovely Bones&lt;/em&gt; and Orhan Pamuk’s &lt;em&gt;My Name Is Red&lt;/em&gt; have dead narrators. So on and so forth.&lt;/p&gt;
+
+&lt;p&gt;But just like Star Trek’s aliens are as Bill Maher put it, “simply humans with various skin diseases”, the above unconventional narrators above are just repositories for the author’s voice. There is nothing “un-human” about them. They are mostly gimmicks.&lt;/p&gt;
+
+&lt;p&gt;A truly speculative take on consciousness would challenge many of our shared assumptions about the mind. Sometimes this can be as simple as moving a story 10,000 years in the apocalyptic future, as Russell Hoban did in &lt;em&gt;Riddley Walker&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Hoban’s story-telling protagonist takes his band across Yorkshire’s desolate landscape as humanity enter its final phase of extinction.  Hoban was aware that if people 10,000 years in the future were to speak like us then they’d become nothing but modern humans dressed up in funny clothes (the Star Trek syndrome). With its distorted metaphors and monstrous beauty, for me Riddleyspeak ranks right up there with Orwell’s Newspeak or Burgess’ Nadsat.  It’s as if bruised and bloodied boxers had been hired to ramp-walk haute couture designs. Here is the opening sentence, unlikely to make it on any of Buzzfeed greatest lists.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;‘On my naming day when I come 12 I gone front spear and kilt a wyld boar he parbly ben the las wyld pig on the Bundel Downs any how there hadnt ben none for a long time before him nor I aint looking to see none agen.’&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It’s hard to contemplate reading the entire novel.&lt;/p&gt;
+
+&lt;p&gt;………………………………………………………………..
+Imaginative resistance comes in two flavors. The first is the rejection of an author’s authority over what they would have us imagine. Usually, such rejection seem to arise when authors make moral claims that are offensive to our sense of what is right and wrong. But it can also arise in other ways. For example, the recent outcry over blackwashing— black actors playing white characters in historical dramas— is an illustration of how some viewers resist what they’re asked to imagine. Similarly, children resist story-telling which deviate from the versions they’re familiar with (&lt;em&gt;It’s Jack and Jill, not Jaspal and Jill!&lt;/em&gt;).&lt;label for=&quot;child1&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;child1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;Children imagine in distinctly different ways from adults. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;The second kind of imaginative resistance is the resistance to imagination itself.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 04 Oct 2021 08:33:47 -0400</pubDate>
+        <link>/anilmenon/articles/21/What-Is-Spec-Fic</link>
+        <guid isPermaLink="true">/anilmenon/articles/21/What-Is-Spec-Fic</guid>
+        
+        
+        <category>literature</category>
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Edge Cases</title>
+        <description>&lt;p&gt;Some edge cases and cautionary examples on using Markdown for writing content using this theme. In particular, list syntax can really knot things up.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;mathjax-improperly-parsing-greater-and-less-than-and-ampersands-inside-blocks&quot;&gt;Mathjax improperly parsing greater and less than and ampersands inside blocks&lt;/h3&gt;
+
+&lt;p&gt;The mathjax HTML &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt; scripts have been modified to properly render block style mathjax expressions inside a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$$ ... $$&lt;/code&gt; set of character pairs,
+using the standard Kramdown parser. Some examples sent to me by Quxiaofeng are now parsing correctly, I believe.&lt;/p&gt;
+
+&lt;p&gt;This code:&lt;/p&gt;
+
+&lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
+  D &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\left&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\begin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;matrix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\\&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\cdots&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;   &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\\&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
+ &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\end&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;matrix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
+ &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\right&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;yields this:&lt;/p&gt;
+
+\[D = \left(\begin{matrix}
+  1 &amp;amp; -1 &amp;amp; &amp;amp; &amp;amp; &amp;amp; \\
+  &amp;amp;    &amp;amp; \cdots &amp;amp;   &amp;amp; \\
+  &amp;amp;    &amp;amp;        &amp;amp; 1 &amp;amp; -1
+\end{matrix}
+\right)\]
+
+&lt;p&gt;Other examples from the &lt;a href=&quot;http://latex.wikia.com/wiki/Matrix_environments&quot;&gt;wikia Tex reference&lt;/a&gt;:&lt;/p&gt;
+
+\[\begin{matrix}
+\alpha&amp;amp; \beta^{*}\\
+\gamma^{*}&amp;amp; \delta
+\end{matrix}\]
+
+\[\begin{bmatrix}
+\alpha&amp;amp; \beta^{*}\\
+\gamma^{*}&amp;amp; \delta
+\end{bmatrix}\]
+
+\[\begin{Bmatrix}
+\alpha&amp;amp; \beta^{*}\\
+\gamma^{*}&amp;amp; \delta
+\end{Bmatrix}\]
+
+\[\begin{vmatrix}
+\alpha&amp;amp; \beta^{*}\\
+\gamma^{*}&amp;amp; \delta
+\end{vmatrix}\]
+
+\[\begin{Vmatrix}
+\alpha&amp;amp; \beta^{*}\\
+\gamma^{*}&amp;amp; \delta
+\end{Vmatrix}\]
+
+\[\begin{Vmatrix}
+\alpha&amp;amp; \beta^{*}\\
+\gamma^{*}&amp;amp; \delta
+\end{Vmatrix}\]
+
+&lt;p&gt;However, a problem still exists for inline matrix notation, from an example &lt;a href=&quot;https://en.wikibooks.org/wiki/LaTeX/Mathematics#Matrices_in_running_text&quot;&gt;here&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;A matrix in text must be set smaller: \(\bigl(\begin{smallmatrix}a &amp;amp; b \\ c &amp;amp; d\end{smallmatrix} \bigr)\) to not increase leading in a portion of text. The way this inline matrix is written is: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$$ \bigl(\begin{smallmatrix}a &amp;amp; b \\ c &amp;amp; d\end{smallmatrix} \bigr) $$&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;edge-case-1-from-quxiaofeng&quot;&gt;Edge Case 1 from Quxiaofeng:&lt;/h2&gt;
+
+&lt;h3 id=&quot;no-blank-lines-between-markdown-list-items&quot;&gt;No blank lines between Markdown list items&lt;/h3&gt;
+
+&lt;p&gt;The issue arises when sidenotes and marginnotes are put into list items.  As mentioned in the main documentation page, lists can be problematic not only for semantic clarity, but also because they can creating formatting issues. For example:&lt;/p&gt;
+
+&lt;h3 id=&quot;related-algorithms&quot;&gt;Related algorithms&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Split Bregman iteration &lt;label for=&quot;1&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Goldstein, T. and Osher, S. (2009). The split Bregman method for l1-regularized problems. SIAM J. Img. Sci., 2:323-343. &lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;Dykstra’s alternating projection algorithm &lt;label for=&quot;2&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;2&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Dykstra, R. L. (1983). An algorithm for restricted least squares regression. J. Amer. Statist. Assoc., 78(384):837-842. &lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;Proximal point algorithm applied to the dual&lt;/li&gt;
+  &lt;li&gt;Numerous applications in statistics and machine learning: lasso, gen. lasso, graphical lasso, (overlapping) group lasso, …&lt;/li&gt;
+  &lt;li&gt;Embraces distributed computing for big data &lt;label for=&quot;3&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;3&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Boyd, S., Parikh, N., Chu, E., Peleato, B., and Eckstein, J. (2011). Distributed optimization and statistical learning via the alternating direction method of multipliers. Found. Trends Mach. learn., 3(1):1-122. &lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;why-this-matters&quot;&gt;Why this matters&lt;/h3&gt;
+
+&lt;p&gt;Notice how the sidenotes display properly, but the fact that sidenotes have more display ‘volume’ than the list items themselves causes a horizontal mismatch between the sidenote item’s number and its corresponding list item.&lt;/p&gt;
+
+&lt;p&gt;Please note that there must be &lt;em&gt;no blank lines between your list items&lt;/em&gt;. This is due to a really strange thing about the Jekyll Markdown engine I have never noticed before. If you have a list, and you put a blank line between the items like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  + list item 1
+
+  + list item 2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;It will create an html tag structure like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;ul&amp;gt;
+   &amp;lt;li&amp;gt;
+      &amp;lt;p&amp;gt;list item 1&amp;lt;/p&amp;gt;
+  &amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;
+      &amp;lt;p&amp;gt;list item 2&amp;lt;/p&amp;gt;
+   &amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Which &lt;em&gt;totally&lt;/em&gt; goofs up the layout CSS.&lt;/p&gt;
+
+&lt;p&gt;However, if your Markdown is this:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    + list item 1
+    + list item 2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;It will create a tag structure like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;ul&amp;gt;
+   &amp;lt;li&amp;gt;list item 1&amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;list item 2&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Here is the same content as above, with a blank line separating the list items. Notice how the sidenotes get squashed into the main content area:&lt;/p&gt;
+
+&lt;h3 id=&quot;remarks-on-admm-version-2---one-blank-line-between-markdown-list-items&quot;&gt;Remarks on ADMM version 2 - &lt;strong&gt;one blank line&lt;/strong&gt; between Markdown list items&lt;/h3&gt;
+
+&lt;p&gt;Related algorithms&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Split Bregman iteration &lt;label for=&quot;1&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Goldstein, T. and Osher, S. (2009). The split Bregman method for l1-regularized problems. SIAM J. Img. Sci., 2:323-343. &lt;/span&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Dykstra’s alternating projection algorithm &lt;label for=&quot;2&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;2&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Dykstra, R. L. (1983). An algorithm for restricted least squares regression. J. Amer. Statist. Assoc., 78(384):837-842. &lt;/span&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Proximal point algorithm applied to the dual&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Numerous applications in statistics and machine learning: lasso, gen. lasso, graphical lasso, (overlapping) group lasso, …
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;liquid-tag-parsing-strangeness&quot;&gt;Liquid tag parsing strangeness&lt;/h3&gt;
+
+&lt;p&gt;Example of the proper way to write an url inside a &lt;em&gt;Liquid&lt;/em&gt; full-width image tag.&lt;/p&gt;
+
+&lt;p&gt;This code: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{% fullwidth &quot;assets/img/rhino.png&quot; &quot;Tuftes pet rhino (via &amp;lt;a href=\&quot;//www.edwardtufte.com/tufte/\&quot;&amp;gt;Edward Tufte&amp;lt;/a&amp;gt;)&quot;  %}&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;produces the following image with a title. Notice that I have had to escape the double quotes in the HTML with a backslash. Also, the example above leaves out the single quote in ‘Tufte’s” because of the topsy-turvy way that you have to escape the escapes in code sections that are used for illustrative purposes in this text. Bottom line is that there are occasionally some odd interactions between the Markdown parser, custom &lt;em&gt;Liquid&lt;/em&gt; tags and HTML.&lt;/p&gt;
+&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;/anilmenon/assets/img/rhino.png&quot; /&gt;&lt;figcaption&gt;Tufte&amp;#8217;s pet rhino (via &lt;a href=&quot;//www.edwardtufte.com/tufte/&quot;&gt;Edward Tufte&lt;/a&gt;)&lt;/figcaption&gt;&lt;/figure&gt;
+</description>
+        <pubDate>Mon, 13 Apr 2020 13:04:01 -0400</pubDate>
+        <link>/anilmenon/articles/20/Edge-Cases</link>
+        <guid isPermaLink="true">/anilmenon/articles/20/Edge-Cases</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
+    
+      <item>
+        <title>Tufte-style Jekyll blog</title>
+        <description>&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;The Tufte Jekyll theme&lt;/span&gt;  is an attempt to create a website design with the look and feel of Edward Tufte’s books and handouts. Tufte’s style is known for its extensive use of sidenotes, tight integration of graphics with text, and well-set typography.&lt;!--more--&gt; The idea for this project is essentially cribbed wholesale from Tufte and R Markdown’s Tufte Handout format&lt;label for=&quot;One&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;One&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See &lt;a href=&quot;https://tufte-latex.github.io/tufte-latex/&quot;&gt;tufte-latex.github.io/tufte-latex/&lt;/a&gt; and &lt;a href=&quot;http://rmarkdown.rstudio.com/tufte_handout_format.html&quot;&gt;rmarkdown.rstudio.com/tufte_handout_format&lt;/a&gt; &lt;/span&gt; This page is an adaptation of the &lt;a href=&quot;http://rmarkdown.rstudio.com/examples/tufte-handout.pdf&quot;&gt;Tufte Handout PDF&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;jekyll-customizations&quot;&gt;Jekyll customizations&lt;/h2&gt;
+
+&lt;p&gt;This Jekyll blog theme is based on the github repository by Edward Tufte &lt;a href=&quot;https://github.com/edwardtufte/tufte-css&quot;&gt;here&lt;/a&gt;, which was orginally created by Dave Leipmann, but is now labeled under Edward Tufte’s moniker. I borrowed freely from the Tufte-CSS repo and have transformed many of the typographic and page-structural features into a set of custom Liquid tags that make creating content using this style much easier than writing straight HTML. Essentially, if you know markdown, and mix in a few custom Liquid tags, you can be creating a website with this document style in short order.&lt;/p&gt;
+
+&lt;p&gt;The remainder of this sample post is a self-documenting survey of the features of the Tufte-Jekyll theme. I have taken almost all of the sample content from the &lt;a href=&quot;https://github.com/edwardtufte/tufte-css&quot;&gt;Tufte-css&lt;/a&gt; repo and embedded it here to illustrate the parity in appearence between the two. The additional verbiage and commentary I have added is to document the custom &lt;em&gt;Liquid&lt;/em&gt; markup tags and other features that are bundled with this theme.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-sass-settings-file&quot;&gt;The SASS settings file&lt;/h3&gt;
+
+&lt;p&gt;I have taken much of the actual &lt;em&gt;Tufte-css&lt;/em&gt; files and modified them as necessary to accomodate the needs inherent in creating a Jekyll theme that has additional writing aids such as the Liquid tags. I have also turned the CSS file into a &lt;a href=&quot;http://sass-lang.com&quot;&gt;SASS&lt;/a&gt; file (the .scss type).  This means that you can alter things like font choices, text color, background color, and underlining style by changing values in this file. When the Jekyll site is built using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll build&lt;/code&gt; the settings in this file will be compiled into the customized CSS file that the site uses.&lt;/p&gt;
+
+&lt;p&gt;This file looks like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/* This file contains all the constants for colors and font styles */
+
+$body-font:   ETBembo, Palatino, &quot;Palatino Linotype&quot;, &quot;Palatino LT STD&quot;, &quot;Book Antiqua&quot;, Georgia, serif;
+// Note that Gill Sans is the top of the stack and corresponds to what is used in Tufte&apos;s books
+// However, it is not a free font, so if it is not present on the computer that is viewing the webpage
+// The free Google &apos;Lato&apos; font is used instead. It is similar.
+$sans-font:  &quot;Gill Sans&quot;, &quot;Gill Sans MT&quot;, &quot;Lato&quot;, Calibri, sans-serif;
+$code-font: Consolas, &quot;Liberation Mono&quot;, Menlo, Courier, monospace;
+$url-font: &quot;Lucida Console&quot;, &quot;Lucida Sans Typewriter&quot;, Monaco, &quot;Bitstream Vera Sans Mono&quot;, monospace;
+$text-color: #111;
+$bg-color: #fffff8;
+$contrast-color: #a00000;
+$border-color: #333333;
+$link-style: color; // choices are &apos;color&apos; or &apos;underline&apos;. Default is color using $contrast-color set above
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Any of these values can be changed in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_sass/_settings.scss&lt;/code&gt; file before the site is built. The default values are the ones from &lt;em&gt;tufte-css&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;fundamentals&quot;&gt;Fundamentals&lt;/h2&gt;
+
+&lt;h3 id=&quot;color&quot;&gt;Color&lt;/h3&gt;
+
+&lt;p&gt;Although paper handouts obviously have a pure white background, the web is better served by the use of slightly off-white and off-black colors. I picked &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#fffff8&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#111111&lt;/code&gt; because they are nearly indistinguishable from their ‘pure’ cousins, but dial down the harsh contrast. Tufte’s books are a study in spare, minimalist design. In his book &lt;a href=&quot;http://www.edwardtufte.com/tufte/books_vdqi&quot;&gt;The Visual Display of Quantitative Information&lt;/a&gt;, he uses a red ink to add some visual punctuation to the buff colored paper and dark ink. In that spirit, links are styled using a similar red color.&lt;/p&gt;
+
+&lt;h3 id=&quot;headings&quot;&gt;Headings&lt;/h3&gt;
+
+&lt;p&gt;Tufte CSS uses &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; for the document title, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt;&lt;/code&gt; with class &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;code&lt;/code&gt; for the document subtitle, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;h2&amp;gt;&lt;/code&gt; for section headings, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;h3&amp;gt;&lt;/code&gt; for low-level headings. More specific headings are not encouraged. If you feel the urge to reach for a heading of level 4 or greater, consider redesigning your document:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;[It is] notable that the Feynman lectures (3 volumes) write about all of physics in 1800 pages, using only 2 levels of hierarchical headings: chapters and A-level heads in the text. It also uses the methodology of &lt;em&gt;sentences&lt;/em&gt; which then cumulate sequentially into &lt;em&gt;paragraphs&lt;/em&gt;, rather than the grunts of bullet points. Undergraduate Caltech physics is very complicated material, but it didn’t require an elaborate hierarchy to organize.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;cite&gt;&lt;a href=&quot;http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0000hB&quot;&gt;http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0000hB&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;p&gt;As a bonus, this excerpt regarding the use of headings provides an example of using block quotes. Markdown does not have a native &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;cite&amp;gt;&lt;/code&gt; shorthand, but real html can be sprinkled in with the Markdown text. In the previous example, the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;cite&amp;gt;&lt;/code&gt; was preceded with a single return after the quotation itself. The previous blockquote was written in Markdown thusly:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-Liquid&quot;&gt;[It is] notable that the Feynman lectures (3 volumes) write about all of physics in 1800 pages, using only 2 levels of hierarchical headings: chapters and A-level heads in the text. It also uses the methodology of *sentences* which then cumulate sequentially into *paragraphs*, rather than the grunts of bullet points. Undergraduate Caltech physics is very complicated material, but it didn’t require an elaborate hierarchy to organize.
+&amp;lt;cite&amp;gt;[http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0000hB](http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0000hB)&amp;lt;/cite&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;In his later books&lt;/span&gt; &lt;label for=&quot;two&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;two&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;&lt;a href=&quot;http://www.edwardtufte.com/tufte/books_be&quot;&gt;http://www.edwardtufte.com/tufte/books_be&lt;/a&gt; &lt;/span&gt;, Tufte starts each section with a bit of vertical space, a non-indented paragraph, and sets the first few words of the sentence in small caps. To accomplish this using this style, enclose the sentence fragment you want styled with small caps in a custom Liquid tag called ‘newthought’ like so:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-Liquid&quot;&gt;{% newthought &apos;In his later books&apos; %}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;text&quot;&gt;Text&lt;/h3&gt;
+
+&lt;p&gt;In print, Tufte uses the proprietary Monotype Bembo&lt;label for=&quot;3&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;3&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See Tufte’s comment in the &lt;a href=&quot;http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0000Vt&quot;&gt;Tufte book fonts&lt;/a&gt; thread. &lt;/span&gt; font. A similar effect is achieved in digital formats with the now open-source ETBembo, which Tufte-Jekyll supplies with a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@font-face&lt;/code&gt; reference to a .ttf file. Thanks to &lt;a href=&quot;https://github.com/daveliepmann/tufte-css/commit/0a810a7d5f4707941c6f9fe99a53ec41f50a5c00&quot;&gt;Linjie Ding&lt;/a&gt;, italicized text uses the ETBembo Italic font instead of mechanically skewing the characters. In case ETBembo somehow doesn’t work, Tufte CSS degrades gracefully to other serif fonts like Palatino and Georgia. Notice that Tufte CSS includes separate font files for &lt;strong&gt;bold&lt;/strong&gt; (strong) and &lt;em&gt;italic&lt;/em&gt; (emphasis), instead of relying on the browser to mechanically transform the text. This is typographic best practice. It’s also really important. Thus concludes my unnecessary use of em and strong for the purpose of example.&lt;/p&gt;
+
+&lt;p&gt;Code snippets ape GitHub’s font selection using Microsoft’s &lt;a href=&quot;http://www.microsoft.com/typography/ClearTypeFonts.mspx&quot;&gt;&lt;em&gt;Consolas&lt;/em&gt;&lt;/a&gt; and the sans-serif font uses Tufte’s choice of Gill Sans. Since this is not a free font, and some systems will not have it installed, the free google font &lt;a href=&quot;https://www.google.com/fonts/specimen/Lato&quot;&gt;&lt;em&gt;Lato&lt;/em&gt;&lt;/a&gt; is designated as a fallback.&lt;/p&gt;
+
+&lt;h2 id=&quot;epigraphs&quot;&gt;Epigraphs&lt;/h2&gt;
+
+&lt;div class=&quot;epigraph&quot;&gt;&lt;blockquote&gt;&lt;p&gt;The English language . . . becomes ugly and inaccurate because our thoughts are foolish, but the slovenliness of our language makes it easier for us to have foolish thoughts.&lt;/p&gt;&lt;footer&gt;George Orwell, &lt;cite&gt; &quot;Politics and the English Language&quot; &lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;&lt;/div&gt;
+
+&lt;div class=&quot;epigraph&quot;&gt;&lt;blockquote&gt;&lt;p&gt;For a successful technology, reality must take precedence over public relations, for Nature cannot be fooled.&lt;/p&gt;&lt;footer&gt;Richard P. Feynman, &lt;cite&gt; “What Do You Care What Other People Think?” &lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;&lt;/div&gt;
+
+&lt;p&gt;If you’d like to introduce your page or a section of your page with some quotes, use epigraphs. The two examples above show how they are styled. Epigraph elements are modeled after chapter epigraphs in Tufte’s books (particularly &lt;em&gt;Beautiful Evidence&lt;/em&gt;). The &lt;a href=&quot;https://github.com/edwardtufte/tufte-css&quot;&gt;Tufte-css&lt;/a&gt; gitub repository has detailed instructions on how to achieve this using HTML elements. As an easier alternative, the &lt;em&gt;Tufte-jekyll&lt;/em&gt; theme uses custom &lt;em&gt;Liquid tag&lt;/em&gt; pairs that allow the writer to embed elements such as epigraphs in the middle of the regular Markdown text being edited.&lt;/p&gt;
+
+&lt;p&gt;In order to use an epigraph in a page or section, type this:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{% epigraph &apos;text of citation&apos; &apos;author of citation&apos; &apos;citation source&apos;  %}&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;to produce this:&lt;/p&gt;
+
+&lt;div class=&quot;epigraph&quot;&gt;&lt;blockquote&gt;&lt;p&gt;I do not paint things, I paint only the differences between things.&lt;/p&gt;&lt;footer&gt;Henri Matisse, &lt;cite&gt;Henri Matisse Dessins: thèmes et variations, 1943&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;&lt;/div&gt;
+
+&lt;div class=&quot;epigraph&quot;&gt;&lt;blockquote&gt;&lt;p&gt; &quot;How did you go bankrupt?&quot; Two ways. Gradually, then suddenly.&lt;/p&gt;&lt;footer&gt;Ernest Hemingway, &lt;cite&gt; &quot;The Sun Also Rises&quot; &lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;lists&quot;&gt;Lists&lt;/h3&gt;
+
+&lt;p&gt;Tufte points out that while lists have valid uses, they tend to promote ineffective writing habits due to their “lack of syntactic and intellectual discipline”. He is particularly critical of hierarchical and bullet-pointed lists. So before reaching for an HTML list element, ask yourself:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Does this list actually have to be represented using an HTML ul or ol element?&lt;/li&gt;
+  &lt;li&gt;Would my idea be better expressed as sentences in paragraphs?&lt;/li&gt;
+  &lt;li&gt;Is my message causally complex enough to warrant a flow diagram instead?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is but a small subset of a proper overview of the topic of lists in communication. A better way to understand Tufte’s thoughts on lists would be to read “The Cognitive Style of PowerPoint: Pitching Out Corrupts Within,” a chapter in Tufte’s book &lt;em&gt;Beautiful Evidence&lt;/em&gt;, excerpted at some length by Tufte himself &lt;a href=&quot;http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0002QF&quot;&gt;on his website&lt;/a&gt;. The whole piece is information-dense and therefore difficult to summarize. He speaks to web design specifically, but in terms of examples and principles rather than as a set of simple do-this, don’t-do-that prescriptions. It is well worth reading in full for that reason alone.&lt;/p&gt;
+
+&lt;p&gt;For these reasons, Tufte CSS encourages caution before reaching for a list element, and by default removes the bullet points from unordered lists.&lt;/p&gt;
+
+&lt;h2 id=&quot;figures&quot;&gt;Figures&lt;/h2&gt;
+
+&lt;h3 id=&quot;margin-figures&quot;&gt;Margin Figures&lt;/h3&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/anilmenon/assets/img/rhino.png&quot; /&gt;&lt;br /&gt;F.J. Cole, “The History of Albrecht Dürer’s Rhinoceros in Zoological Literature,” &lt;em&gt;Science, Medicine, and History: Essays on the Evolution of Scientific Thought and Medical Practice&lt;/em&gt; (London, 1953), ed. E. Ashworth Underwood, 337-356. From page 71 of Edward Tufte’s &lt;em&gt;Visual Explanations&lt;/em&gt;.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Images and graphics play an integral role in Tufte’s work. To place figures in the margin, use the custom margin figure liquid tag included in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_plugins&lt;/code&gt; directory like so:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{% marginfigure &apos;mf-id-whatever&apos; &apos;assets/img/rhino.png&apos; &apos;F.J. Cole, “The History of Albrecht Dürer’s Rhinoceros in Zoological Literature,” *Science, Medicine, and History: Essays on the Evolution of Scientific Thought and Medical Practice* (London, 1953), ed. E. Ashworth Underwood, 337-356. From page 71 of Edward Tufte’s *Visual Explanations*.&apos;  %}&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Note that this tag has &lt;em&gt;three&lt;/em&gt; parameters. The first is an arbitrary id. This parameter can be named anything as long as it is unique to this post. The second parameter is the path to the image. And the final parameter is whatever caption you want to be displayed with the figure.  All parameters &lt;em&gt;must&lt;/em&gt; be enclosed in quotes for this simple liquid tag to work!&lt;/p&gt;
+
+&lt;p&gt;In this example, the &lt;em&gt;Liquid&lt;/em&gt; marginfigure tag was inserted &lt;em&gt;before&lt;/em&gt; the paragraph so that it aligns with the beginning of the paragraph. On small screens, the image will collapse into a small symbol: &lt;span class=&quot;contrast &quot;&gt;⊕&lt;/span&gt; at the location it has been inserted in the manuscript. Clicking on it will open the image.&lt;/p&gt;
+
+&lt;h3 id=&quot;full-width-figures&quot;&gt;Full Width Figures&lt;/h3&gt;
+
+&lt;p&gt;If you need a full-width image or figure, another custom liquid tag is available to use. Oddly enough, it is named ‘fullwidth’, and this markup:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{% fullwidth &apos;assets/img/napoleons-march.png&apos; &apos;Napoleon&apos;s March *(Edward Tufte’s English translation)*&apos;  %}&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Yields this:&lt;/p&gt;
+
+&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;/anilmenon/assets/img/napoleons-march.png&quot; /&gt;&lt;figcaption&gt;Napoleon’s March &lt;em&gt;(Edward Tufte’s English translation)&lt;/em&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;main-column-figures&quot;&gt;Main Column Figures&lt;/h3&gt;
+
+&lt;p&gt;Besides margin and full width figures, you can of course also include figures constrained to the main column. Yes, you guessed it, a custom liquid tag rides to the rescue once again:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{% maincolumn &apos;assets/img/export-imports.png&apos; &apos;From Edward Tufte, *Visual Display of Quantitative Information*, page 92&apos;  %}&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;yields this:&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/anilmenon/assets/img/exports-imports.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;From Edward Tufte, &lt;em&gt;Visual Display of Quantitative Information&lt;/em&gt;, page 92&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;sidenotes-and-margin-notes&quot;&gt;Sidenotes and Margin notes&lt;/h2&gt;
+
+&lt;p&gt;One of the most prominent and distinctive features of Tufte’s style is the extensive use of sidenotes and margin notes. Perhaps you have noticed their use in this document already. You are very astute.&lt;/p&gt;
+
+&lt;p&gt;There is a wide margin to provide ample room for sidenotes and small figures. There exists a slight semantic distinction between &lt;em&gt;sidenotes&lt;/em&gt; and &lt;em&gt;marginnotes&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;sidenotes&quot;&gt;Sidenotes&lt;/h3&gt;
+
+&lt;p&gt;Sidenotes&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;This is a sidenote and &lt;em&gt;displays a superscript&lt;/em&gt; &lt;/span&gt; display a superscript. The &lt;em&gt;sidenote&lt;/em&gt; Liquid tag contains two components. The first is an identifier allowing the sidenote to be targeted by the twitchy index fingers of mobile device users so that all the yummy sidenote goodness is revealed when the superscript is tapped. The second components is the actual content of the sidenote. Both of these components should be enclosed in single quotes. Note that we are using the CSS ‘counter’ trick to automagically keep track of the number sequence on each page or post. On small screens, the sidenotes disappear and when the superscript is clicked, a side note will open below the content, which can then be closed with a similar click. Here is the markup for the sidenote at the beginning of this paragraph:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{% sidenote &apos;sn-id-whatever&apos; &apos;This is a sidenote and *displays a superscript*&apos;%}&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;margin-notes&quot;&gt;Margin notes&lt;/h3&gt;
+
+&lt;p&gt;Margin notes&lt;label for=&quot;mn-id-whatever&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;This is a margin note &lt;em&gt;without&lt;/em&gt; a superscript &lt;/span&gt; are similar to sidenotes, but do not display a superscript. The &lt;em&gt;marginnnote&lt;/em&gt; Liquid tags has the same two components as the &lt;em&gt;sidenote&lt;/em&gt; tag. Anything can be placed in a margin note. Well, anything that is an inline element. Block level elements can make the Kramdown parser do strange things. On small screens, the margin notes disappear and this symbol: &lt;span class=&quot;contrast &quot;&gt;⊕&lt;/span&gt; pops up. When clicked, it will open the margin note below the content, which can then be closed with a similar click. The Markdown content has a similar sort of markup as a sidenote, but without a number involved:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{% marginnote &apos;mn-id-whatever&apos; &apos;This is a margin note *without* a superscript&apos; %}&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;equations&quot;&gt;Equations&lt;/h2&gt;
+
+&lt;p&gt;The Markdown parser being used by this Jekyll theme is Kramdown, which contains some built-in &lt;a href=&quot;//www.mathjax.org&quot;&gt;Mathjax&lt;/a&gt; support. Both inline and block-level mathematical figures can be added to the content.&lt;/p&gt;
+
+&lt;p&gt;For instance, the following inline sequence:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;is written by enclosing a Mathjax expression within &lt;em&gt;a matching pair of double dollar signs: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$$&lt;/code&gt;&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;When $$ a \ne 0 $$, there are two solutions to $$ ax^2 + bx + c = 0 $$&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Similarly, this block-level Mathjax expression:&lt;/p&gt;
+
+\[x = {-b \pm \sqrt{b^2-4ac} \over 2a}\]
+
+&lt;p&gt;is written by enclosing the expression within a pair of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$$&lt;/code&gt; with an empty line above and below:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;You can get pretty fancy, for instance, the wave equation’s nabla is no big thing:&lt;/p&gt;
+
+\[\frac{\partial^2 y}{\partial t^2}= c^2\nabla^2u\]
+
+&lt;p&gt;All of the standard &lt;span class=&quot;latex&quot;&gt;L&lt;sup&gt;a&lt;/sup&gt;T&lt;sub&gt;e&lt;/sub&gt;X&lt;/span&gt; equation markup is available to use inside these block tags.&lt;/p&gt;
+
+&lt;p&gt;Please note that the block-level Mathjax expressions &lt;em&gt;must&lt;/em&gt; be on their own line, separated from content above and below the block by a blank line for the Kramdown parser and the Mathjax javascript to play nicely with one another.&lt;/p&gt;
+
+&lt;p&gt;The Mathjax integration is tricky, and some things such as the inline matrix notation simply do not work well unless allowances are made for using the notation for a small matrix. Bottom line: If you are using this to document mathematics, be super careful to isolate your &lt;span class=&quot;latex&quot;&gt;L&lt;sup&gt;a&lt;/sup&gt;T&lt;sub&gt;e&lt;/sub&gt;X&lt;/span&gt; blocks by blank lines!&lt;/p&gt;
+
+&lt;h2 id=&quot;tables&quot;&gt;Tables&lt;/h2&gt;
+
+&lt;p&gt;Tables are, frankly,  a pain in the ass to create. That said, they often are one of the best methods for presenting data. Tabular data are normally presented with right-aligned numbers, left-aligned text, and minimal grid lines.&lt;/p&gt;
+
+&lt;p&gt;Note that when writing Jekyll Markdown content, there will often be a need to get some dirt under your fingernails and stoop to writing a little honest-to-god html. Yes, all that hideous &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;table&amp;gt;..&amp;lt;thead&amp;gt;..&amp;lt;th&amp;gt;&lt;/code&gt; nonsense. &lt;em&gt;And&lt;/em&gt; you must wrap the unholy mess in a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;div class=&quot;table-wrapper&quot;&amp;gt;&lt;/code&gt; tag to ensure that the table stays centered in the main content column.&lt;/p&gt;
+
+&lt;p&gt;Tables are designed with an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;overflow:scroll&lt;/code&gt; property to create slider bars when the viewport is narrow. This is so that you do not collapse all your beautiful data into a jumble of letters and numbers when you view it on your smartphone.&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;table-1-id&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;table-1-id&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;em&gt;Table 1&lt;/em&gt;: A table with default style formatting &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;table-wrapper&quot;&gt;
+  &lt;table class=&quot;table-alpha&quot; id=&quot;newspaper-tone&quot;&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th class=&quot;left&quot;&gt;Content and tone of front-page articles in 94 U.S. newspapers, October and November, 1974&lt;/th&gt;
+        &lt;th class=&quot;left&quot;&gt;Number of articles&lt;/th&gt;
+        &lt;th&gt;Percent of articles with negative criticism of specific person or policy&lt;/th&gt;&lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td class=&quot;text&quot;&gt;Watergate: defendants and prosecutors, Ford’s pardon of Nixon&lt;/td&gt;
+        &lt;td&gt;&lt;div class=&quot;number&quot;&gt;537&lt;/div&gt;&lt;/td&gt;
+        &lt;td class=&quot;c&quot;&gt;&lt;div class=&quot;number&quot;&gt;49%&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td class=&quot;text&quot;&gt;Inflation, high cost of living&lt;/td&gt;
+        &lt;td&gt;&lt;div class=&quot;number&quot;&gt;415&lt;/div&gt;&lt;/td&gt;
+        &lt;td class=&quot;c&quot;&gt;&lt;div class=&quot;number&quot;&gt;28%&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td class=&quot;text&quot;&gt;Government competence: costs, quality, salaries of public employees&lt;/td&gt;
+        &lt;td&gt;&lt;div class=&quot;number&quot;&gt;322&lt;/div&gt;&lt;/td&gt;
+        &lt;td class=&quot;c&quot;&gt;&lt;div class=&quot;number&quot;&gt;30%&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td class=&quot;text&quot;&gt;Confidence in government: power of special interests, trust in political leaders, dishonesty in politics&lt;/td&gt;
+        &lt;td&gt;&lt;div class=&quot;number&quot;&gt;266&lt;/div&gt;&lt;/td&gt;
+        &lt;td class=&quot;c&quot;&gt;&lt;div class=&quot;number&quot;&gt;52%&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td class=&quot;text&quot;&gt;Government power: regulation of business, secrecy, control of CIA and FBI&lt;/td&gt;
+        &lt;td&gt;&lt;div class=&quot;number&quot;&gt;154&lt;/div&gt;&lt;/td&gt;
+        &lt;td class=&quot;c&quot;&gt;&lt;div class=&quot;number&quot;&gt;42%&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td class=&quot;text&quot;&gt;Crime&lt;/td&gt;
+        &lt;td&gt;&lt;div class=&quot;number&quot;&gt;123&lt;/div&gt;&lt;/td&gt;
+        &lt;td class=&quot;c&quot;&gt;&lt;div class=&quot;number r&quot;&gt;30%&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td class=&quot;text&quot;&gt;Race&lt;/td&gt;
+        &lt;td&gt;&lt;div class=&quot;number&quot;&gt;103&lt;/div&gt;&lt;/td&gt;
+        &lt;td class=&quot;c&quot;&gt;&lt;div class=&quot;number&quot;&gt;25%&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td class=&quot;text&quot;&gt;Unemployment&lt;/td&gt;
+        &lt;td&gt;&lt;div class=&quot;number&quot;&gt;100&lt;/div&gt;&lt;/td&gt;
+        &lt;td class=&quot;c&quot;&gt;&lt;div class=&quot;number&quot;&gt;13%&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td class=&quot;text&quot;&gt;Shortages: energy, food&lt;/td&gt;
+        &lt;td&gt;&lt;div class=&quot;number&quot;&gt;68&lt;/div&gt;&lt;/td&gt;
+        &lt;td class=&quot;c&quot;&gt;&lt;div class=&quot;number&quot;&gt;16%&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This is not the One True Table. Such a style does not exist. One must craft each data table with custom care to the narrative one is telling with that specific data. So take this not as “the table style to use”, but rather as “a table style to start from”. From here, use principles to guide you: avoid chartjunk, optimize the data-ink ratio (“within reason”, as Tufte says), and “mobilize every graphical element, perhaps several times over, to show the data.&lt;label for=&quot;table-id&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;table-id&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Page 139, &lt;em&gt;The Visual Display of Quantitative Information&lt;/em&gt;, Edward Tufte 2001. &lt;/span&gt; Furthermore, one must know when to reach for more complex data presentation tools, like a custom graphic or a JavaScript charting library.&lt;/p&gt;
+
+&lt;p&gt;As an example of alternative table styles, academic publications written in &lt;span class=&quot;latex&quot;&gt;L&lt;sup&gt;a&lt;/sup&gt;T&lt;sub&gt;e&lt;/sub&gt;X&lt;/span&gt; often rely on the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;booktabs&lt;/code&gt; package to produce clean, clear tables. Similar results can be achieved in Tufte CSS with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;booktabs&lt;/code&gt; class, as demonstrated in this table:&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;table-2-id&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;table-2-id&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;em&gt;Table 2&lt;/em&gt;: A table with booktabs style formatting &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;table-wrapper&quot;&gt;
+&lt;table class=&quot;booktabs&quot;&gt;
+          &lt;thead&gt;
+            &lt;tr&gt;&lt;th colspan=&quot;2&quot; class=&quot;cmid&quot;&gt;Items&lt;/th&gt;&lt;th class=&quot;nocmid&quot;&gt;&lt;/th&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;th class=&quot;l&quot;&gt;Animal&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;th class=&quot;r&quot;&gt;Price ($)&lt;/th&gt;&lt;/tr&gt;
+          &lt;/thead&gt;
+          &lt;tbody&gt;
+            &lt;tr&gt;&lt;td&gt;Gnat&lt;/td&gt;     &lt;td&gt;per gram&lt;/td&gt;&lt;td class=&quot;r&quot;&gt;13.65&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;/td&gt;         &lt;td&gt;each&lt;/td&gt;    &lt;td class=&quot;r&quot;&gt;0.01&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;Gnu&lt;/td&gt;      &lt;td&gt;stuffed&lt;/td&gt; &lt;td class=&quot;r&quot;&gt;92.50&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;Emu&lt;/td&gt;      &lt;td&gt;stuffed&lt;/td&gt; &lt;td class=&quot;r&quot;&gt;33.33&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;Armadillo&lt;/td&gt;&lt;td&gt;frozen&lt;/td&gt;  &lt;td class=&quot;r&quot;&gt;8.99&lt;/td&gt;&lt;/tr&gt;
+          &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The table above was written in HTML as follows:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div class=&quot;table-wrapper&quot;&amp;gt;
+&amp;lt;table class=&quot;booktabs&quot;&amp;gt;
+          &amp;lt;thead&amp;gt;
+            &amp;lt;tr&amp;gt;&amp;lt;th colspan=&quot;2&quot; class=&quot;cmid&quot;&amp;gt;Items&amp;lt;/th&amp;gt;&amp;lt;th class=&quot;nocmid&quot;&amp;gt;&amp;lt;/th&amp;gt;&amp;lt;/tr&amp;gt;
+            &amp;lt;tr&amp;gt;&amp;lt;th class=&quot;l&quot;&amp;gt;Animal&amp;lt;/th&amp;gt;&amp;lt;th&amp;gt;Description&amp;lt;/th class=&quot;r&quot;&amp;gt;&amp;lt;th&amp;gt;Price ($)&amp;lt;/th&amp;gt;&amp;lt;/tr&amp;gt;
+          &amp;lt;/thead&amp;gt;
+          &amp;lt;tbody&amp;gt;
+            &amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;Gnat&amp;lt;/td&amp;gt;     &amp;lt;td&amp;gt;per gram&amp;lt;/td&amp;gt;&amp;lt;td class=&quot;r&quot;&amp;gt;13.65&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;
+            &amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;         &amp;lt;td&amp;gt;each&amp;lt;/td&amp;gt;    &amp;lt;td class=&quot;r&quot;&amp;gt;0.01&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;
+            &amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;Gnu&amp;lt;/td&amp;gt;      &amp;lt;td&amp;gt;stuffed&amp;lt;/td&amp;gt; &amp;lt;td class=&quot;r&quot;&amp;gt;92.50&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;
+            &amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;Emu&amp;lt;/td&amp;gt;      &amp;lt;td&amp;gt;stuffed&amp;lt;/td&amp;gt; &amp;lt;td class=&quot;r&quot;&amp;gt;33.33&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;
+            &amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;Armadillo&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;frozen&amp;lt;/td&amp;gt;  &amp;lt;td class=&quot;r&quot;&amp;gt;8.99&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;
+          &amp;lt;/tbody&amp;gt;
+&amp;lt;/table&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;I like this style of table,&lt;/span&gt;   so I have made it the default for unstyled tables. This allows use of the &lt;a href=&quot;https://michelf.ca/projects/php-markdown/extra/&quot;&gt;&lt;em&gt;Markdown Extra&lt;/em&gt;&lt;/a&gt; features built into the &lt;a href=&quot;http://kramdown.gettalong.org/parser/kramdown.html&quot;&gt;&lt;em&gt;Kramdown&lt;/em&gt;&lt;/a&gt; parser. Here is a table created using the Markdown Extra table syntax to make a nice table which has the side benefit of being human readable in the raw Markdown file:&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;tableID-3&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;tableID-3&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;Table 3: a table created with &lt;em&gt;Markdown Extra&lt;/em&gt; markup using only the default table styling &lt;/span&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;mpg&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;cyl&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;disp&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;hp&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;drat&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;wt&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Mazda RX4&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;21&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;6&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;160&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;110&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;3.90&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;2.62&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Mazda RX4 Wag&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;21&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;6&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;160&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;110&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;3.90&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;2.88&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Datsun 710&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;22.8&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;108&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;93&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;3.85&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;2.32&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Hornet 4 Drive&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;21.4&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;6&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;258&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;110&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;3.08&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;3.21&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Hornet Sportabout&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;18.7&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;8&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;360&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;175&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;3.15&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;3.44&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Valiant&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;18.1&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;6&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;160&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;105&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;2.76&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;3.46&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Using the following Markdown formatting:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;|                 |mpg  | cyl  |  disp  |   hp   |  drat  | wt  |
+|:----------------|----:|-----:|-------:|-------:|-------:|----:|
+|Mazda RX4        |21   |6     |160     |110     |3.90    |2.62 |
+|Mazda RX4 Wag    |21   |6     |160     |110     |3.90    |2.88 |
+|Datsun 710       |22.8 |4     |108     |93      |3.85    |2.32 |
+etc...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The following is a more simple table, showing the Markdown-style table markup. Remember to label the table with a &lt;em&gt;marginnote&lt;/em&gt; Liquid tag, and you &lt;em&gt;must&lt;/em&gt; separate the label from the table with a single blank line. This markup:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% marginnote &apos;Table-ID4&apos; &apos;Table 4: a simple table showing left, center, and right alignment of table headings and data&apos;  %}
+
+|**Left** |**Center**|**Right**|
+|:--------|:--------:|--------:|
+ Aardvarks|         1|$3.50
+       Cat|   5      |$4.23
+  Dogs    |3         |$5.29
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Yields this table:&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;Table-ID4&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;Table-ID4&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;Table 4: a simple table showing left, center, and right alignment of table headings and data &lt;/span&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Left&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;Center&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;&lt;strong&gt;Right&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Aardvarks&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;$3.50&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Cat&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;$4.23&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Dogs&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;3&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;$5.29&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;code&quot;&gt;Code&lt;/h2&gt;
+
+&lt;p&gt;Code samples use a monospace font using the ‘code’ class. The Kramdown parser has the ‘GFM’ option enabled, which stands for ‘Github Flavored Markdown’, and this means that both inline code such as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#include &amp;lt;stdio.h&amp;gt;&lt;/code&gt; and blocks of code can be delimited by surrounding them with 3 backticks:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(map tufte-style all-the-things)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;is created by the following markup:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```(map tufte-style all-the-things)```&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To get the code highlighted in the language of your choice like so:&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;module&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;Jekyll&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;RenderFullWidthTag&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Liquid&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Tag&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;shellwords&quot;&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;initialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tokens&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;super&lt;/span&gt;
+      &lt;span class=&quot;vi&quot;&gt;@text&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;shellsplit&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;context&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;s2&quot;&gt;&quot;&amp;lt;div&amp;gt;&amp;lt;img class=&apos;fullwidth&apos; src=&apos;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&apos;/&amp;gt;&amp;lt;/div&amp;gt; &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
+      &lt;span class=&quot;s2&quot;&gt;&quot;&amp;lt;p&amp;gt;&amp;lt;span class=&apos;marginnote&apos;&amp;gt;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&quot;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;no&quot;&gt;Liquid&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Template&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;register_tag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;fullwidth&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Jekyll&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;RenderFullWidthTag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Enclose the code block in three backticks, followed by a space and then the language name, like this:&lt;/p&gt;
+
+&lt;pre&gt; &lt;code&gt;``` ruby
+    module Jekyll
+    blah, blah...
+   ```&lt;/code&gt; &lt;/pre&gt;
+
+</description>
+        <pubDate>Mon, 13 Apr 2020 05:46:04 -0400</pubDate>
+        <link>/anilmenon/articles/20/tufte-style-jekyll-blog</link>
+        <guid isPermaLink="true">/anilmenon/articles/20/tufte-style-jekyll-blog</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>css</category>
+        
+      </item>
+    
+      <item>
+        <title>Naiyar Masud: The Storyteller of Lucknow</title>
+        <description>&lt;p&gt;Sometimes the best way to find
+&lt;label for=&quot;masud1&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;masud1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/anilmenon/assets/img/masud/naiyermasud.gif&quot; /&gt;&lt;br /&gt;Naiyer Masud, by &lt;a href=&quot;http://www.daisyrockwell.com/&quot; target=&quot;blank&quot;&gt;Daisy Rockwell&lt;/a&gt;&lt;/span&gt;  something is to look for something else. This happened to me recently. I stumbled upon the stories of Naiyer Masud while searching online for one of Ismat Chugtai’s stories. I came across the &lt;a href=&quot;https://minds.wisconsin.edu/handle/1793/11485&quot; target=&quot;blank&quot;&gt;Annual of Urdu Studies&lt;/a&gt;, a wonderful journal which often publishes translations of short and novella-sized Urdu fiction. It was as if I’d wandered into a wondrous bazaar in a strange town, except that the excitement had to be tempered by the realization I had a train to catch. The journal was filled with possibilities. What to read? What to download? So I only read the first paras of stories, skimming biographies, critiques, but the sampling only made the decision harder.&lt;/p&gt;
+
+&lt;p&gt;Here, I must interrupt myself and tell you about the Angel in the Bookcase. Since the universe is twisted like a pretzel and there is no God, it so happens that the lucky frequently get lucky. So too is the case with some readers and good books.&lt;label for=&quot;lomax1&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;lomax1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/anilmenon/assets/img/masud/The-Bookworm.jpg&quot; /&gt;&lt;br /&gt;What happens when you &lt;em&gt;don’t&lt;/em&gt; have the Angel on your side.&lt;/span&gt; I’ve been unusually lucky with books. This realization struck me early. In my sated moments as a teenager, I’d often contemplate my unexpected success in finding this or that book, and I slowly convinced myself that there was someone— the Angel in the Bookcase— watching out for me. This fanciful theory was reinforced by a rather peculiar incident which I feel compelled to also share.&lt;/p&gt;
+
+&lt;p&gt;I was with Ashwin Desai, a friend majoring in Chemical Engg, and we were in the stacks of the college library because he wanted to locate a book on transport phenomena. The book was as likely to be in the non-existent gardening section as it was to be in the chemistry stacks. I began to hold forth on my privileged connection with the Angel in the Bookcase. He was listening somewhat humbly, and it incited me to prophetic rashness. ‘For example,’ I declared, ‘the Angel tells me your book is— here.’ I turned around and grabbed a book from the stack at random.&lt;/p&gt;
+
+&lt;p&gt;‘&lt;em&gt;Bhenchod&lt;/em&gt;!’ said Ashwin, breaking the hushed silence.&lt;/p&gt;
+
+&lt;p&gt;It was, of course, the book he’d wanted.&lt;/p&gt;
+
+&lt;p&gt;So here I was in a digital library, not very different from my college stacks, faced with too many choices and too little time. I happened to remember this old story and without thinking grabbed the first pdf file I saw in the fiction section. I didn’t even bother to inspect the file.&lt;/p&gt;
+
+&lt;p&gt;Later, I discovered I’d downloaded Naiyar Masud’s novella &lt;a href=&quot;http://digital.library.wisc.edu/1793/11985&quot; target=&quot;blank&quot;&gt;Itr-e-Kafur&lt;/a&gt; (The Essence of Camphor).&lt;/p&gt;
+
+&lt;p&gt;I used to have difficulty pointing to speculative fiction that couldn’t be seen as magic realist or SF or fantasy. Now I can point to stories like &lt;a href=&quot;http://digital.library.wisc.edu/1793/11987 Masud: Sheesha Ghat&amp;quot;&quot; target=&quot;blank&quot;&gt;Sheesha Ghat&lt;/a&gt; or &lt;a href=&quot;http://digital.library.wisc.edu/1793/18331&quot; title=&quot;Masud: Snake Catcher&quot; target=&quot;blank&quot;&gt;Mar Gir&lt;/a&gt; (Snake Catcher).&lt;/p&gt;
+
+&lt;p&gt;Of course, such classifications are always arbitrary. As Sikandar Ahmad has &lt;a href=&quot;http://digital.library.wisc.edu/1793/30562&quot; target=&quot;blank&quot;&gt;pointed out&lt;/a&gt;, Masud does his best to describe his work in terms of what he does not do. For example, in an &lt;a href=&quot;http://digital.library.wisc.edu/1793/12013&quot; target=&quot;blank&quot;&gt;interview with Asif Farrukhi&lt;/a&gt;, Masud denied he works in the fantastic:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“As for fantasy, I try very hard to steer clear of it. My stories are not fantasies, at least not in the sense of the fantastic. You cannot say their events don’t occur in real life.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Urdu fiction has always had a fantastic and florid turn and Masud is partly distancing his work from that tradition. One way to do so is to give up on Urdu’s fondness for ruin. Masud also resists writing story-like stories. Like many modern writers, he breaks most of the traditional rules of short fiction— for example, the rule of economy that insists every character must have a role in the story or Poe’s rule of ‘unity of mood’ or Chekhov’s rule about not mentioning things if they aren’t used and so on. But these violations, unlike those of the modernists, are not really experiments in making things anew. Novelty is the unhappy spouse of Time. The literature of unhappy spouses is usually about escape or recrimination. Masud is interested in neither.&lt;/p&gt;
+
+&lt;p&gt;Things happen in his stories, and what happens is always clear as well as interesting, but as in life, it’s not necessary that the events arrange into larger meaningful patterns. The events have no deeper rationale. To invoke A. K. Ramanujan invoking Donald Davidson:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Actions have actors, actions express actors. Actions have reasons, actors are responsible for what they do, and character is destiny. But events happen to people. Events have no reasons, only causes. Narratives motived by karma convert all events into actions; in which everything has a reason. [Src: A. K. Ramanujan, &lt;em&gt;Telling Tales&lt;/em&gt;, Daedalus 118(4), 1989.]&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A.K. Ramanujan was discussing Indian folktales, but it seems to me this insight can greatly help in understanding how Masud’s fiction does what it does. Masud eschews karmic fiction; his events have causes but not reasons, his characters are not entailed by the plot and his realism is of the Kafkaesque variety but without its oppressiveness or obsession. The result is a story as infused with the possibility of possibility as camphor is with its fragrance. In most fiction, possibility gets hard-wired. The possibility of things being possible is one of the hardest, if not the hardest, effects to achieve.&lt;/p&gt;
+
+&lt;p&gt;Consequently, one must give up the sense of an ending. His endings often aren’t. Masud’s invented, I think, a kind of short story in which we stop reading not because we’ve reached closure but because we’ve left the chai-ki-laari, we’ve caught the bus, we’ve parted from our story-telling friend. Stories fade in Masud’s world, they don’t end. They end, so to speak, &lt;em&gt;in media res&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Naiyar Masud is still around.&lt;label for=&quot;note3&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;note3&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;Update: Naiyer Masud passed away on 24 July 2017. &lt;/span&gt; It seems he rarely leaves Lucknow, which makes sense since the city has long celebrated the good life; Umar Memon has &lt;a href=&quot;http://digital.library.wisc.edu/1793/11983&quot; target=&quot;blank&quot;&gt;helpfully provided&lt;/a&gt; a brief biographical sketch. He writes about one short-story a year. Much of the time, Masud explained, is spent removing what he’s written. Among other things, he’s translated Kafka’s works into Urdu.&lt;/p&gt;
+
+&lt;p&gt;Naturally, he has to be punished with the label ‘Urdu’s Kafka’. There are some similarities between the two writers, yes. Kafka also wrote stories where causality, not reason, is the governing principle. Gunther Anders&lt;label for=&quot;gunt1&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;gunt1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;Anders, Gunther.  &lt;em&gt;Franz Kafka&lt;/em&gt;. Trans. by A. Steer and A.K. Thorlby. Bowes &amp;amp; Bowes, London. 1960. &lt;/span&gt; remarked that Kafka’s characters are ‘people attached to a job.’ So too Masud’s characters, who are busy making perfumes, building bird cages, steering boats, fashioning glass, catching snakes. Both authors use unadorned styles, but while Kafka uses sleights of grammar to make the unreal real, Masud uses sleights of memory to make the real unreal. However, all these similarities and differences pale in face of the fundamental division between the two men: Masud’s fiction affirms possibility, while Kafka’s denies it. Perhaps this is why Kafka’s fiction leaves one in despair, while Masud’s stories, even the tragic ones, leaves one feeling exhilarated.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Muhammad_Umar_Memon&quot; target=&quot;blank&quot;&gt;Muhammed Umar Memon&lt;/a&gt; &lt;label for=&quot;memon1&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;memon1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;Dr. Memon passed away on 3 June 2018. &lt;/span&gt; professor emeritus at Univ. of Wisconsin-Madison and editor of AUS, has been indefatigable in making Masud’s work available to the English speaking world. Thanks to his efforts, we have two story collections &lt;a href=&quot;http://www.amazon.com/Essence-Camphor-Naiyer-Masud/dp/1565845838/ref=sr_1_1?ie=UTF8&amp;amp;qid=1334363601&amp;amp;sr=8-1&quot; target=&quot;blank&quot;&gt;The Essence of Camphor&lt;/a&gt; and &lt;a href=&quot;http://www.amazon.com/Snake-Catcher-Naiyer-Masud/dp/1566566290&quot; target=&quot;blank&quot;&gt;The Snake Catcher&lt;/a&gt; containing some of Masud’s best stories. The Annual had a &lt;a href=&quot;http://www.urdustudies.com/Issue21/index.html&quot; target=&quot;top&quot;&gt;special issue&lt;/a&gt; in honor of Masud, and many other stories can appeared over the years.&lt;/p&gt;
+
+&lt;p&gt;My favorites— what day is it? Saturday? Well then, my favorites are &lt;a href=&quot;http://www.urdustudies.com/Issue12/index.html&quot; target=&quot;blank&quot;&gt;Sheesha Ghat&lt;/a&gt; and &lt;a href=&quot;http://www.urdustudies.com/Issue12/index.html&quot; target=&quot;blank&quot;&gt;Ojhal&lt;/a&gt; (literally, the word means ‘Invisible’ but Javaid Qazi &amp;amp; Memon’s translation captures the title’s spirit with ‘Obscure Domains of Fear and Desire’.&lt;/p&gt;
+
+&lt;p&gt;News is news only to those who haven’t heard the news. I was walking with my friend Geeta Patel who’d done her &lt;a href=&quot;http://www.amazon.com/Lyrical-Movements-Historical-Hauntings-Colonialism/dp/0804733295/ref=sr_1_1?ie=UTF8&amp;amp;qid=1334363432&amp;amp;sr=8-1&quot; target=&quot;blank&quot;&gt;thesis work&lt;/a&gt; on the Urdu poet Miraji (Sanaullah Dar). I mentioned that I’d just come across this writer, Masud.&lt;/p&gt;
+
+&lt;p&gt;‘Oh yes, Naiyar,’ said Geeta. ‘You’ll really like his stories.’&lt;/p&gt;
+
+&lt;p&gt;My first feeling was outrage. Damn it woman, if you knew that, why didn’t you mention it earlier! How was it possible that it’d had taken me so long to make Masud’s acquaintance? I, who had an efficient and conscientious personal Angel! Urdu is hardly an obscure Indian dialect. How could it be that I’d read my way around this remarkable writer all these years? Who else was I missing?&lt;/p&gt;
+
+&lt;p&gt;Such questions are tied to the politics and economics of the subcontinent. Contemplating them leads to a certain exhaustion.&lt;/p&gt;
+
+&lt;p&gt;No matter. Stories find their readers. Friend, this may hardly be news to some of you, but do check out the strange and wonderful stories of Naiyer Masud.&lt;/p&gt;
+
+&lt;p&gt;***&lt;/p&gt;
+
+&lt;h3 id=&quot;acknowledgements&quot;&gt;Acknowledgements:&lt;/h3&gt;
+
+&lt;p&gt;Featured image is a scaled version of translator, author, artist, and critic &lt;a href=&quot;http://www.daisyrockwell.com/&quot; target=&quot;blank&quot;&gt;Daisy Rockwell’s&lt;/a&gt; portrait of Masud. Also check out her &lt;a href=&quot;https://www.outlookindia.com/website/story/the-stay-at-home-man/282461&quot; target=&quot;blank&quot;&gt;interesting article&lt;/a&gt; on Naiyer Masud’s stories in the Oct 2012 issue of Outlook India.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 14 Apr 2012 18:00:45 -0400</pubDate>
+        <link>/anilmenon/the-storyteller-of-lucknow-2/</link>
+        <guid isPermaLink="true">/anilmenon/the-storyteller-of-lucknow-2/</guid>
+        
+        
+        <category>India</category>
+        
+        <category>Literature</category>
+        
+      </item>
+    
+      <item>
+        <title>The Griffith Ramayana</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://books.google.com/books?id=p8ocAQAAIAAJ&amp;amp;dq=Ralph%20Griffith%20Sanskrit%20buried&amp;amp;pg=PA169#v=onepage&amp;amp;q=Ralph%20Griffith%20Sanskrit%20buried&amp;amp;f=false&quot; target=&quot;blank&quot;&gt;Ralph Thomas Hotchkin Griffith&lt;/a&gt;
+was born to Reverend Robert C. Griffith and Mary E. Adderley in Corsley, Wiltshire on May 25, 1826. It was a remarkable age. Only three days earlier, the HMS Beagle had set sail from Plymouth on its first voyage. Waterloo was already a decade old memory. Queen Victoria was 7 years old. Charles Dickens was 14. Lord Byron was dead, Charles Babbage was designing the Difference Engine, and speculative fiction had drawn its first gasping breath in the Gothic womb of Mary Shelley’s &lt;em&gt;Frankenstein&lt;/em&gt;. In distant India, a word that still denoted an area and not a place, one principality after another was falling to British might and British genius. It was the best of times to be an Englishman. As &lt;a href=&quot;http://en.wikipedia.org/wiki/John_Aylmer_%28bishop%29&quot; target=&quot;blank&quot;&gt;John Aylmer&lt;/a&gt;, Bishop of London, had presciently anticipated in &lt;em&gt;An Harborowe&lt;/em&gt;, a year after the English navy crushed the Spanish Armada in 1588: “God is English.”&lt;/p&gt;
+
+&lt;p&gt;But conquest had brought with it the conqueror’s burden: administration. No empire has ever had enough qualified citizens to run two countries at the same time. Sooner or later, an empire has to start finding, training and hiring natives. Lord Macaulay’s &lt;a href=&quot;http://www.columbia.edu/itc/mealac/pritchett/00generallinks/macaulay/txt_minute_education_1835.html&quot; target=&quot;blank&quot;&gt;Minute of 1834&lt;/a&gt; spelled out what the goal should be:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;…a class of persons, Indian in blood and colour, but English in taste, in opinions, in morals, and in intellect.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Or less politely, wogs. Coconuts. Salman Rushdie, in his &lt;em&gt;The Moor’s Last Sigh&lt;/em&gt;, acknowledges this bitter fruit:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Bleddy Macaulay’s minutemen!…. English-medium misfits…. square-peg freaks.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Macaulay is reviled these days for his racism, but as I see it, he was only being consistent. Hadn’t the Roman empire been a good thing for Britain? Wasn’t Macaulay its living proof? Didn’t he belong to the class of persons, English in blood and color, but Roman in taste, in opinions, in morals, and in intellect? Besides, Macaulay and his carminative Minute were less &lt;a href=&quot;http://books.google.com/books?id=Td000gAPpoMC&amp;amp;lpg=PA19&amp;amp;ots=Ns1gMHGQxr&amp;amp;dq=Macaulay%20influence&amp;amp;pg=PA17#v=onepage&amp;amp;q=Macaulay%20influence&amp;amp;f=false&quot; target=&quot;blank&quot;&gt;influential&lt;/a&gt; than people suppose. What really got British education started in India was Sir Charles Wood’s &lt;a href=&quot;http://books.google.com/books?id=dij297KbFDAC&amp;amp;lpg=PP1&amp;amp;ots=1eqMg21B5d&amp;amp;dq=Indian%20Educational%20Service%20colonial&amp;amp;pg=PA5#v=onepage&amp;amp;q&amp;amp;f=false&quot; target=&quot;blank&quot;&gt;Education Dispatch of 1854&lt;/a&gt;. It was well reasoned, pragmatic, free of hand-wringing, and based on an idea that would probably still work in places like Afghanistan. The idea was to leave Indian education mostly to the Indians, provide partial government funding, and set up some model educational institutions. In short: self-reliance, support and standards.&lt;/p&gt;
+
+&lt;p&gt;However, there was a severe shortage of British instructors. So that might explain why when Ralph T. H. Griffith joined the Indian Education Service in 1853, the twenty-seven year old Sanskrit scholar was almost immediately sentenced to be Professor of English Literature at the venerable &lt;a href=&quot;http://ssvv.up.nic.in/&quot; target=&quot;blank&quot;&gt;Government Sanskrit College&lt;/a&gt; in Benares, India. Indeed, six months into the job, they made him headmaster of the associated school, and in 1861, the principal of the college itself. It was a position he was to hold for the next twenty-three years.&lt;/p&gt;
+
+&lt;p&gt;It was during this tenure that Griffith finished translating the first six books of Valmiki’s Ramayana from Sanskrit into English. The seventh and final book is a later addition to the canon (so is the first) and this he only abridged. The &lt;a href=&quot;http://books.google.com/books?id=Vx9LAAAAIAAJ&amp;amp;dq=Griffith%20Ramayan&amp;amp;pg=PP6#v=onepage&amp;amp;q&amp;amp;f=false&quot;&gt;complete work&lt;/a&gt; appeared in 1870, published by E. J. Lazarus &amp;amp; Co. in Benares, and Trubner &amp;amp; Co in London. There had been &lt;a href=&quot;http://books.google.com/books?id=Z8EKAAAAYAAJ&amp;amp;pg=PP7#v=onepage&amp;amp;q&amp;amp;f=false&quot; target=&quot;blank&quot;&gt;an earlier effort&lt;/a&gt; in 1806 by the missionaries William Carey and Joshua Marshman, but they had only managed to translate the first two volumes. Thus, Griffith had produced the first complete English translation of Valmiki’s Ramayana. Translations are acts of courage. As Victor Hugo noted:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“When you offer a translation to a nation, that nation will almost always look on the translation as an act of violence against itself.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Hugo was talking about native receptions to translated foreign works, but it applies equally well to native receptions to foreigners translating native works. In the literary magazines of the period, the Griffith Ramayana is often referred to as “a spirited translation,” a compliment to be sure, but for a horse, not a translation. It’s not insignificant that Voltaire mocked “spirited translators”:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“…[their] spirit and ability consist in substituting a modern variety or peculiarity for an ancient one, to the utter confusion of all unity of time, place, and character; leaving the mind of the reader bewildered as in a masquerade, crowded and confused with ancient and modern costumes.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;But Griffith’s achievement should not be underestimated. He’d had to translate some 24,000 slokas. A sloka is a Sanskrit verse and consists of thirty-two syllables, arranged either as a sixteen-syllable couplet or four eight-syllable hemistiches. The Iliad and Odyssey combined have some 27,000 lines, thus making the Ramayana roughly twice as long. Furthermore, a Sanskrit verse can be as gnarly as a one-liner Perl hack. It’s a language that takes a coder’s pride in Oulipo-type exercises. Gorresio’s Italian translation (1850) and August von Schlegel’ German translation (1829) could and did act as guides, but when it came to translating the slokas to English, Griffith was on his own.&lt;/p&gt;
+
+&lt;p&gt;So how does his work fare? if we think of it as Griffith’s Ramayana, then the work is not much of a success. It is merely an adequate translation of Valmiki’s Ramayana and a fine example of that curious Victorian animal: the past’s head joined to future’s butt. This is the animal that Voltaire mocked. But if we think of the text as the Griffith Ramayana, a member of the class of inspired Ramayanas, then it’s a marvelous thing indeed. Technically, the two texts are one and the same, but the difference in perceptions does makes a difference in our appreciation.&lt;/p&gt;
+
+&lt;p&gt;The Griffith Ramayana is a literary work, not a scholarly one. The wonderful &lt;a title=&quot;Amazon link&quot; href=&quot;http://www.amazon.com/Ramayana-Valmiki-Princeton-Translations-Yuddhakanda/dp/0691066639&quot; target=&quot;_blank&quot;&gt;Princeton translation&lt;/a&gt; (by Robert Goldman, Sally Sutherland Goldman, Sheldon Pollack and Barend van Nooten) is what a scholarly translation looks like. Scholarly works can get dated, literary works only go out of style. Scholars translate so as to ease their epistemological discomfort. Griffith translated so as to ease his aesthetic discomfort. Occasionally, Valmiki’s verses shows a bit too much leg for Griffith, and the translated verses therefore show too little. He also gets some things seriously wrong. For example, he has a section entitled “The Rape of Sita” when it should be “The Abduction of Sita.” What does Griffith say in anticipation of such bloopers? In the preface, he wrote:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“My first object has been to reproduce the original poem as faithfully as circumstances permit me to do. For this purpose I have preferred verse to prose. The translations of the Iliad by Chapman and Worsley— nay, even by translators of far inferior poetical powers— are, I think, much more Homeric than any literal prose rendering can possibly be. In the latter we may find the ‘disjecti membra poetae,’ but all the form and the life are gone, for ‘the interpenetration of matter and manner constitute the very soul of poetry.’ I have but seldom allowed myself to amplify or to condense, or omit apparently needless repetitions, but have attempted rather to give the poet as he is than to represent him as European taste might prefer him to be. Comparisons, therefore, which to English readers will appear vulgar or rediculous [sic] have been left unaltered, and long passages of unutterable tediousness re-appear in my version with, probably, their tediousness enhanced.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ignoring Griffith’s low opinion of his own work (not to mention the misreading of its essential nature), I completely agree with his decision to stick with verse. The few prose translations I’ve read lack the emotional savors of the original text. Unfortunately, Griffith decided to use iambic tetrameter, a distressing decision for those scarred by the memory of Gladys Hotchkiss belting out “&lt;a title=&quot;Youtube video&quot; href=&quot;http://www.youtube.com/watch?v=lLuwyTzAQH8&quot; target=&quot;_blank&quot;&gt;Hernando’s Hideway&lt;/a&gt;.” I kept hearing an “Ole!” after every four lines. The manic insistence on rhyming also leads Griffith to make bad choices. For example:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;On the bare earth the lady sank,  
+And trembling from their presence shrank  
+Like a strayed fawn, when night is dark,  
+And hungry wolves around her bark.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Barking wolves? Surely, it should be “howl”? But no, if rhyme needs wolves to bark, so they shall. Incidentally, in the original verse (at least in the Baroda Critical Edition of Valmiki’s Ramayana), a trembling Sita shrinks into herself (BCE 5.25.5), and not onto the bare earth. This would seem to be an error, but Sita is born of the Earth, so Griffith’s translation is correct with respect to myth and metaphor. A poet’s choice, of course, not a scholar’s.&lt;/p&gt;
+
+&lt;p&gt;Another problem with iambic tetrameter is pacing. Everything has to fit within the “da DUM da DUM da DUM da DUM” scheme, and there’s often a sense that a line could use an extra “da DUM.” Griffith remarks how he has no intention of chopping off a finger to improve the hand, but I wish he’d added a finger every so often. He also reveals a near-compulsive fondness for inversions and possessive nouns (“virtue’s brow,” “kingdom’s bound,” “ascetic’s weed’). After a while it can get on one’s nerves.&lt;/p&gt;
+
+&lt;p&gt;But there’s magnificence too. Consider this stanza which describes the death of Ravana at the hands of Lord Rama:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Upon his string the hero laid  
+An arrow, like a snake that hissed.  
+...  
+&apos;Twas feathered with the rushing wind;  
+The glowing sun and fire combined  
+To the keen point their splendour lent;  
+The shaft, ethereal element,  
+By Meru&apos;s hill and Mandar, pride  
+of mountains, had its weight supplied.  
+He laid it on the twisted cord,  
+He turned the point at Lanka&apos;s lord,  
+And swift the limb-dividing dart  
+Pierced the huge chest and cleft the heart,  
+And dead he fell upon the plain  
+Like Vritra by the Thunderer slain.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Compare the above with the following one, a description by Tennyson, also a rector’s son, of Mordred’s death at the hand of King Arthur:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;....then Modred smote his liege  
+Hard on that helm which many a heathen sword  
+Had beaten thin; while Arthur at one blow  
+Striking the last stroke with Excalibur  
+Slew him, and all but slain himself, he fell.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;I believe the comparison tilts in Griffith’s favor. Nor is this passage a unique instance. Read with an appreciative frame of mind, the work confirms what Anne Dacier (1647-1720) claimed in her preface to the Illiad: “a translation that tries above all to save the spirit, does not fail to keep the letter, even where it takes the greatest liberties.” Literary critics should take the Griffith Ramayana more seriously.&lt;/p&gt;
+
+&lt;p&gt;An Englishman went up a subcontinent and came down an Indian. Ralph Griffith, a lifelong bachelor, a rector’s son from Wiltshire, a harmless aglet on colonialism’s boot, managed to take an ancient Sanskrit love poem and make it his own. Unlike von Schlegel, he was able to avoid the contempt for the Other that so often accompanies familiarity. This is all the more remarkable considering that the Sepoy “Mutiny” of 1857 had drawn a permanent, and perhaps inevitable, line between conqueror and conquered. By the time Griffith was appointed director of public instruction of the North-west provinces in 1878, Charles Wood’s educational guidelines had become policy. But though policy was strong, the flesh was weak. Weather, loneliness, alcoholism, isolation, homesickness, low salaries, language problems, tropical diseases and, if I’ve judged the expressions of just-landed tourists correctly, sheer terror, all wrecked havoc on the men and women who were to implement the policy. However, Griffith seems to have thrived.&lt;/p&gt;
+
+&lt;p&gt;Upon retirement in 1885, Griffith moved in with his brother Frank’s family, and spent the next twenty-one years in the cool hills of Niligiri, translating the Vedas. Personally, I consider it a pity he didn’t spend the time on more literary texts. There were a great many other Sanskrit works left to translate— some three thousand years worth— but then again, there comes a time when every pen must be set down. At the age of eighty, some fifty years after he’d first arrived in India, never to return to England, Ralph T. H. Griffith died on November 7, 1906. Only a few weeks earlier, Mahatma Gandhi— then just Mohandas— had launched a non-violence movement in South Africa. In June, the Lusitania had set sail on its maiden voyage. Albert Einstein had published the theory of special relativity, solved the mystery of the photoelectric effect, provided a theoretical explanation for Brownian motion and demonstrated the equivalence of matter and energy. Hitler was 17 years old. In seven years time, Rabindranath Tagore would become the first non-European to win the Nobel Prize for literature. There were movies, heavier-than-air flight, phonographs and submarines. It would be a remarkable century. And Ralph T. H. Griffith, one of those suspended human bridges between Us and Them, between Now and Then, between Give and Take, had helped make it happen.&lt;/p&gt;
+
+&lt;p&gt;***&lt;/p&gt;
+
+&lt;h3 id=&quot;acknowledgements&quot;&gt;Acknowledgements:&lt;/h3&gt;
+
+&lt;p&gt;The source of the featured image is unknown.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 23 Apr 2010 18:30:52 -0400</pubDate>
+        <link>/anilmenon/the-griffith-ramayana/</link>
+        <guid isPermaLink="true">/anilmenon/the-griffith-ramayana/</guid>
+        
+        
+        <category>India</category>
+        
+        <category>Literature</category>
+        
+        <category>History</category>
+        
+      </item>
+    
+      <item>
+        <title>Troubled Times At Ridgemont High</title>
+        <description>&lt;p&gt;In places where there are few schools— like Afghanistan or the Congo— schools represent progress, hope, and modernity. In places where there are lots of schools— like India— schools have come to represent congress, anxiety and irrelevance. Thus, the &lt;a href=&quot;http://www.deeshaa.org/who-actually-paid-for-my-education/&quot; target=&quot;blank&quot;&gt;Indian school system&lt;/a&gt; is in trouble. The &lt;a href=&quot;http://www.theaustralian.com.au/news/nation/no-focus-on-real-education-problems/story-e6frg6nf-1111114282086&quot; target=&quot;blank&quot;&gt;Australian school system&lt;/a&gt; is in trouble. The &lt;a href=&quot;http://www.matthewktabor.com/2007/07/25/the-sad-state-of-british-education/&quot; target=&quot;blank&quot;&gt;British school system&lt;/a&gt; is in trouble. The &lt;a href=&quot;http://www.amazon.com/gp/product/0521626862/ref=olp_product_details?ie=UTF8&amp;amp;me=&amp;amp;seller=&amp;quot;&quot;&gt;Japanese school system&lt;/a&gt; is in trouble. The &lt;a href=&quot;http://www.guardian.co.uk/commentisfree/2009/sep/21/germany-now-education&quot; target=&quot;blank&quot;&gt;German school system&lt;/a&gt; is in trouble. Even the Canadians— God’s Why-Can’t-You-Be-More-Like-Them kids— &lt;a href=&quot;http://dsp-psd.pwgsc.gc.ca/Collection-R/LoPBdP/BP/bp386-e.htm&quot; target=&quot;blank&quot;&gt;are worried&lt;/a&gt; about their school system. If the Canadians can’t get it right, there’s little hope for the rest of us.&lt;/p&gt;
+
+&lt;p&gt;Needless to say, the American school system is also a mess. I can write “needless to say” now, but I remember a time when this would’ve been news to me. Until I arrived in the States, I’d been under the impression that John Dewey had designed the American school to be along the lines of a Jihadist’s promised heaven. Though I’m more clued in, it was still astonishing to listen to Diane Ravitch, the former assistant secretary of Education, outline in &lt;a href=&quot;http://www.c-spanvideo.org/program/id/220830&quot; target=&quot;blank&quot;&gt;C-SPAN interview&lt;/a&gt; the sheer intractability of the problem.&lt;/p&gt;
+
+&lt;p&gt;Dr. Ravitch had the resigned calmness of a Xerxes who’s just turned his back on a pile of burning boats. Which is understandable, since she has done just that. &lt;a href=&quot;http://www.nytimes.com/2010/03/03/education/03ravitch.html&quot; target=&quot;blank&quot;&gt;Her radical turnaround&lt;/a&gt; from being a staunch proponent of No Child Left Behind to being a staunch opponent has attracted a great deal of controversy. After decades of a thumbs up position on making teachers legally accountable for student performance, standardized performance measures, introducing market-choice in school systems, and emphasis on science and mathematics, she’s flipped her thumb in the other direction.&lt;/p&gt;
+
+&lt;p&gt;And for a very good reason. She believes none of these solutions really solve the basic problem of modern education, namely: how and what to teach &lt;em&gt;millions&lt;/em&gt; of students— differing widely in abilities, backgrounds and interests— what they need to know as adults? In fact she believes the &lt;a href=&quot;http://books.google.com/books?id=OZap1949gpgC&amp;amp;printsec=frontcover#v=onepage&amp;amp;q=&amp;amp;f=false&quot; target=&quot;blank&quot;&gt;proposed solutions&lt;/a&gt;, ranging from the Mastery Learning movement through CRL, OODM, COMP, PSI, STPSTR, ACiE, RSST, STM to No Child Left Behind (NCLB), have only made the problem that much more intractable. She doesn’t see any quick fixes either. As she wrote in a recent &lt;a href=&quot;http://www.latimes.com/news/opinion/la-oe-ravitch14-2010mar14,0,2024751.story&quot; target=&quot;blank&quot;&gt;LA Times article&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“There have been two features that regularly mark the history of U.S. public schools. Over the last century, our education system has been regularly captivated by a Big Idea — a savant or an organization that promised a simple solution to the problems of our schools. The second is that there are no simple solutions, no miracle cures to those problems.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;She may be right. But even if there is no magic solution, perhaps there is a magic question. It’s familiar to computer scientists because it’s the heart and soul of the analysis of algorithms; that is, problem solving. The magic question is this: compared to what?&lt;/p&gt;
+
+&lt;p&gt;So TV is too violent. Compared to what? Der Struwwelpeter? So the world is getting worse. Compared to what? Venus? So the American school system is in terrible shape. Compared to what? The Congolese system? The French? The Indian? The Japanese? The Australian? The Canadian?&lt;/p&gt;
+
+&lt;p&gt;The answer, most likely, is that the American system is getting worse in comparison to some idealized notion of itself. Thus in 2008, 35% of the nation’s schools were labeled “failing schools”, where &lt;a href=&quot;http://hobokencurriculumproject.blogspot.com/2009/02/what-is-failing-school-under-nclb.html&quot; target=&quot;blank&quot;&gt;failure was judged&lt;/a&gt; ccording the NCLB criterion of showing steady increase in the percentage of students meeting competency standards in grades 3 through 8. NCLB has set a target of 100% by the year 2014; that is, by the year 2014, 100% of the students at a school, in grades 3 through 8, are expected to obtain 200 points or more in the NJ-ASK tests. As Dr. Ravitch remarked dryly &lt;a href=&quot;http://online.wsj.com/article/SB10001424052748704869304575109443305343962.html&quot; target=&quot;blank&quot;&gt;in a WSJ article&lt;/a&gt;;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“This was not my vision of good education.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;To my mind, the difficulties with school education have always had a model— a ghastly but elegant reflection— in grammar instruction. The teaching of grammar has always been a source of grief, for educators as well for students. Kids enter school knowing how to talk, and they leave with the same general expertise, but in between they’re bludgeoned, coaxed, coerced, cajoled, and bombarded with attempts to teach them grammar. These attempts generally do no harm, and they generally do no good. The famous (notorious) conclusion of Braddock, Lloyd-Jones and Schoer in 1963 on grammar instruction, the result of a commissioned study by the National Council of Teachers of English, is brutally honest:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“In view of the widespread agreement of research studies based upon many types of students and teachers, the conclusion can be stated in strong and unqualified terms: the teaching of formal grammar has a negligible or, because it usually displaces some instruction and practice in composition, even a harmful effect on improvement in writing.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Hence experts are coming around to the idea that as far as improving writing instruction is concerned, stuffing kids with more grammar is not the solution. As Rei Noguchi has so carefully discussed, a better strategy might be to teach them a minimal grammar specifically designed to aid in writing.&lt;/p&gt;
+
+&lt;p&gt;Ditto perhaps, for schools and education. As far as educating kids is concerned, perhaps less schooling, not more, might be the answer. Do we really need to treat kids like disposable flash drives? Do we really need to fill their heads with random crap like the periodic table, Snell’s law and twelve times seven? Do they really need to know what’s the latent point of ice? Does it really matter if they believe “deciduous” is what’s left behind after you’ve made a decision? Do we really need to burn some six hours per day per student for a period of some twelve years— 30,000 hours per life— to teach stuff they’ll need rarely, apply incompetently, and forget rapidly?&lt;/p&gt;
+
+&lt;p&gt;If we want students to be curious, independent, rational and decent human beings, then a good first step might be to find and encourage teachers who are those very things. And a good second step would be not to take the first one too seriously. There’s that scene in &lt;em&gt;Fast Times At Ridgemont High&lt;/em&gt; where Jeff Spicoli, the stoned surfer kid, has pizza delivered in Mr. Hand’s class:&lt;/p&gt;
+
+&lt;p&gt;Mr. Hand: Am I hallucinating here? Just what in the hell do you think you’re doing?&lt;/p&gt;
+
+&lt;p&gt;Jeff Spicoli: Learning about Cuba, and having some food.&lt;/p&gt;
+
+&lt;p&gt;Spicoli may be an academic failure, the kind of kid NCLB is determined, blast them, not to leave behind. But for me, trapped as I was in a Dante-inspired hell-hole of an Indian school, Spicoli’s chutzpah, fearless attitude toward authority, self-sufficiency and awareness of the things that made him happy, represented the quintessence of what an American education was all about.&lt;/p&gt;
+
+&lt;p&gt;***&lt;/p&gt;
+
+&lt;h3 id=&quot;acknowledgements&quot;&gt;Acknowledgements:&lt;/h3&gt;
+
+&lt;p&gt;The featured image is from &lt;a href=&quot;http://mr-poo.deviantart.com/&quot; target=&quot;blank&quot;&gt;Todd Alexander Becker&lt;/a&gt;
+@ Deviant Art.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 30 Mar 2010 22:32:11 -0400</pubDate>
+        <link>/anilmenon/troubled-times-at-ridgemont-high/</link>
+        <guid isPermaLink="true">/anilmenon/troubled-times-at-ridgemont-high/</guid>
+        
+        
+        <category>Culture</category>
+        
+        <category>Current Affairs</category>
+        
+      </item>
+    
+      <item>
+        <title>Out, damn Sprout</title>
+        <description>&lt;p&gt;Sprout Inc. has a cloud-based tool that can be used to build flash-based “rich internet applications.” A tie-up with Gigya marketing allows these thingamajigs to be shared and tracked over the web. It is a neat tool and a neat idea. People looking for lost pets, entrepreneurs selling T-shirts, artists promoting their work, social orgs trying to raise funds, and anyone and everyone with a message and a menu built Sprouts all over the place. Best of all, it was free. Later on it became less free. In fact, Sprout Inc. began to charge the early adopters about nineteen free dollars per month. I had been one of the early adopters. I didn’t mind the monthly bleeding because the tool delivered value. In 2009, I built a sprout to promote a workshop I was doing at IIT-Kanpur. Then I built one to promote my novel &lt;em&gt;The Beast With Nine Billion Feet&lt;/em&gt;. Was, built, had been: past tense is the spade with which we bury our plans.&lt;/p&gt;
+
+&lt;p&gt;A few weeks back, Sprout Inc. sent me a “Dear John” letter:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;One of the toughest decisions that a start-up faces is where to focus its efforts and resources. Sprout Builder was our first product and has always been near and dear to our hearts. More importantly, we value the customers who have gotten us to where we are today. However….&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;However, kiss our ass. Or words to that effect. Sprout Inc. has decided, it seems, to “focus on our enterprise product lines.” Individual accounts would now cost $3,000 per year. Opt out and everybody who’d helped spread your sprout would see an empty space on their pages. Sprout Inc. called this “sunsetting the SproutBuilder.” Early adopters, poor artists, orphaned children, lost pets etc. were all to be turned out into the dying light. Night had fallen, the orcs were on their way, and so sad, so sad. No one was sadder than Sprout Inc. I’ve never seen Gmail cry, and believe me, it’s an unnerving sight.&lt;/p&gt;
+
+&lt;p&gt;Sprout Inc.’s decision shows every sign of a Mr. Gekko behind the scenes. There &lt;em&gt;is&lt;/em&gt; a Mr. Gekko behind the scenes of course. Several of them, no doubt. By now, the original founder is probably nothing more than a living floormat for the firm’s venture capitalists. VCs, unlike business people, are pragmatists. VCs typically don’t like tools; they like products. VCs typically don’t understand people, social media, long tails, the power of free and all that crap; they understand enterprises. And they definitely don’t care how a story began; they only care how it ends. Here they see it ending in an IPO and an interview with Maria Bartiromo.&lt;/p&gt;
+
+&lt;p&gt;Sprout Inc. could have done the classy thing and kept the old accounts alive. It doesn’t cost much to store a few flash files per user. What it would gained in good will would have more than offset the few gigabytes of storage. I imagine people would have been happy as long as they didn’t lose the work they had already created. Well, fcuk you too, Sprout.&lt;/p&gt;
+
+&lt;p&gt;At first I worried. I was raised by UNIX. Our tribe &lt;em&gt;prefers&lt;/em&gt; not to pay for software. There was no way I could square Mr. Gekko’ new prices with my conscience. Fortunately, I didn’t have to. RIA tools, like SproutBuilder, are fast becoming a commodity. And with the release of Adobe’s AIR platform last year, Sprout Inc. can soon expect to have nothing more than first-mover’s advantage. Already, there are plenty of alternatives. There’s &lt;a href=&quot;http://www.sliderocket.com&quot; target=&quot;blank&quot;&gt;SlideRocket&lt;/a&gt;. The company seems to think it’s in the slide-making business and it too is cloud-based, but there’s a standalone version and the you don’t &lt;em&gt;have&lt;/em&gt; to make slides. Sliderocket also allows you to export your work, something Sprout Inc. deliberately decided not to let their clients do. There’s Adobe’s &lt;a href=&quot;http://labs.adobe.com/technologies/flashcatalyst/&quot; target=&quot;blank&quot;&gt;Flash Catalyst&lt;/a&gt;. It is expensive (~$700), but then again, it’s not $3,000/year. Nor is it cloud-based. There’s &lt;a href=&quot;http://www.wix.com/&quot; target=&quot;blank&quot;&gt;Wix&lt;/a&gt;, designed, far as I could tell, for and by clowns. But such a company will never go IPO, so users are probably be safe for another year before the org runs through its venture capital. And finally, there’s &lt;a href=&quot;http://www.swishzone.com/&quot; target=&quot;blank&quot;&gt;SwishMax&lt;/a&gt; , a sort of poorer cousin to Adobe. It’s a standalone tool, the learning curve is not too steep (~1 week, a few eeks), and it’s a lot more powerful than SproutBuilder. It took me about a week to replicate my widget in SwishMax.&lt;/p&gt;
+
+&lt;p&gt;***&lt;/p&gt;
+
+&lt;h3 id=&quot;acknowledgements&quot;&gt;Acknowledgements:&lt;/h3&gt;
+
+&lt;p&gt;The featured Image “Mr Burns” is due to &lt;a href=&quot;http://www.pitchepuck.com/&quot; target=&quot;blank&quot;&gt;Martin Beyer’s&lt;/a&gt; wonderful 3d talents.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 27 Mar 2010 02:09:01 -0400</pubDate>
+        <link>/anilmenon/out-damn-sprout/</link>
+        <guid isPermaLink="true">/anilmenon/out-damn-sprout/</guid>
+        
+        
+        <category>Business</category>
+        
+        <category>Technology</category>
+        
+        <category>Web/Tech</category>
+        
+      </item>
+    
+      <item>
+        <title>Odd Gods, God&apos;s Odds</title>
+        <description>&lt;p&gt;ABC News’ Nightline recently sponsored a Faceoff debate with Deepak Chopra &amp;amp; Jean Houston on one side and Sam Harris &amp;amp; Michael Shermer on the other. The topic: &lt;a href=&quot;https://abcnews.go.com/Nightline/FaceOff/nightline-face-off-god-future/story?id=10170505&quot; target=&quot;blank&quot;&gt;Does God have a future&lt;/a&gt;? For atheists (and I’m not one) this might be a bit like debating whether Bugs Bunny will continue to be fond of carrots. It is not a meaningless question, but perhaps it is a question best left to future rabbit scholars who’ll be around to observe the matter first hand. Still, if God’s advocates these days are the likes of Deepak Chopra and Jean Houston, then I have to feel a little sorry for the Perfect One.&lt;/p&gt;
+
+&lt;p&gt;Deepak Chopra is a brother, so it was somewhat painful to watch the man’s passionate incoherence. He spoke in aggrieved fragments, choppy phrases circling the wagons of his non-argument. Chopra had it in for Shermer, which is understandable, since Shermer has made it a point to ridicule him as Dr. Woo-Woo. Sample exchange:&lt;/p&gt;
+
+&lt;p&gt;Chopra: For people like Michael— not you so much [Sam Harris]— for people like Michael, to take all of the inner experience, all of the rich inner experience and try to codify it in a graph with data is absurd.&lt;/p&gt;
+
+&lt;p&gt;Shermer: As opposed to what? Just calling it fuzzy words? How does that help us understand it?&lt;/p&gt;
+
+&lt;p&gt;Chopra: That’s such an OUT, Michael. That’s such an out.&lt;/p&gt;
+
+&lt;p&gt;Shermer: And—&lt;/p&gt;
+
+&lt;p&gt;Chopra: You use the word ‘fuzzy’. Use the word ‘woo-woo’ and you’re out of the argument.&lt;/p&gt;
+
+&lt;p&gt;Indeed. What was the argument again? But it doesn’t really matter. The debate wasn’t a debate because the two sides were using words very differently. Harris &amp;amp; Shermer were using reason, that is, using language with its usual adult conventions of having to make sense. The other side seem to use words to evoke cosmic feeling. Dr. Houston &lt;a href=&quot;http://www.huffingtonpost.com/dr-jean-houston/the-future-of-god-debate_b_499690.html&quot; target=&quot;blank&quot;&gt;writes things like&lt;/a&gt;: “That is you — the human being that is the microcosm or, if you will, the fractal of the Infinite self. The human Selfing game may be what Infinity does for fun.” It seems to me that such speech-acts have a certain ritualistic role. It is not too far removed in emotional affect from shamanic chants, motherese, and the nonsense rhymes of children.&lt;/p&gt;
+
+&lt;p&gt;Jean Houston seemed more aware than Chopra that the place and time weren’t suited for chanting. Or perhaps it was simply that she wasn’t allowed to speak. Every now and then she’d raise her hand to indicate she wanted to speak, but her attempts were ignored by the three men. Pretty brutal.&lt;/p&gt;
+
+&lt;p&gt;It is easy to make fun of Chopra and Dr. Houston. But they make life more interesting, not less. So a little sympathy may not be out of order. We need them around, if only to remind us there’s no curing the imagination. Perhaps they truly believe the woo-woo they claim to believe. And what’s the harm? At best, it is only the stuff of foma, wampeters and granfalloons. At worst, it only further delays a serious study of Bugs Bunny and his inexplicable passion for carrots.&lt;/p&gt;
+
+&lt;p&gt;***&lt;/p&gt;
+
+&lt;h3 id=&quot;acknowledgements&quot;&gt;Acknowledgements:&lt;/h3&gt;
+
+&lt;p&gt;Featured image is due to Hyung Koo Lee’s “Bugs Bunny” from his &lt;em&gt;Animatus Series&lt;/em&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 26 Mar 2010 10:34:45 -0400</pubDate>
+        <link>/anilmenon/odd-gods-gods-odds/</link>
+        <guid isPermaLink="true">/anilmenon/odd-gods-gods-odds/</guid>
+        
+        
+        <category>Culture</category>
+        
+        <category>Religion</category>
+        
+        <category>Science</category>
+        
+      </item>
+    
+      <item>
+        <title>Simpson&apos;s Paradox In The Slush Pile</title>
+        <description>&lt;p&gt;In 1973, a time of pitchforks, flaming bras and napalm, the University of Berkeley received a total of 12,763 graduate program applications. 8,442 apps were from men, and the remaining 4,321 apps were from women.&lt;label for=&quot;gend1&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;gend1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;Let me forestall the hate mail by quickly adding that before Al Gore invented the net, gender used to be a simple binary affair: you were either male or female; there were no in-between’s, no undecided’s, no none-of-the-above’s and no you-tell-me’s. &lt;/span&gt; Of this hopeful lot, Berkeley admitted 3,738 men and 1,494 women. In other words, about 44% of the men were admitted compared with 35% of the women. A &lt;em&gt;nine-percent&lt;/em&gt; difference. A woman applying to Berkeley’s grad programs had a 9% less chance of being admitted than a male. That, as statisticians like to joke, smelled of Fisher.&lt;/p&gt;
+
+&lt;p&gt;Assuming that women candidates were as qualified as the male candidates, what could explain why the discrepancy in admission rates was so large? Sexism, of course. There was no use pointing out that Berkeley was in effing California, not Louisiana. No use pointing out that 1,494 women &lt;em&gt;had&lt;/em&gt; been admitted. Token women didn’t count. Women twice as good as men didn’t count twofold. Men as gentle as temple cows didn’t count. What counted was the 9%.&lt;/p&gt;
+
+&lt;p&gt;Eugene Hammel, the male Associate Dean of Graduate Studies, had the bright idea of asking Peter Bickel, a male statistics prof who was on the board of the Grad Council at Berkeley, to analyze the admissions data.&lt;label for=&quot;study1&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;study1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;Bickel, P. J., Hammel, E. A., &amp;amp; O’Connell, J. W. &lt;a href=&quot;https://homepage.stat.uiowa.edu/~mbognar/1030/Bickel-Berkeley.pdf&quot; target=&quot;blank&quot;&gt;Sex bias in graduate admissions&lt;/a&gt;: Data from Berkeley. Science, 187(4175), 398–404, 1975. &lt;/span&gt; The result of that analysi s by Bickel, Hammel and O’Connell is now a statistical classic. They showed that on a department by department basis, if there was a bias, it was a slight one &lt;em&gt;in favor&lt;/em&gt; of admitting women over men.&lt;/p&gt;
+
+&lt;p&gt;How was this possible? How could it be that at a departmental level, women were as likely, if not slightly more likely, to be admitted, but the admission rates for women were 9% lower than that of men? Was it….; Could it be….; Could it &lt;em&gt;really&lt;/em&gt; be just….; ARITHMETIC!!!&lt;/p&gt;
+
+&lt;p&gt;Yes. While the odds of admission did favor women on a department-by-department basis, the admission standards of different departments were not all the same. Some departments, say, Physics, had notoriously high standards. Other departments, say, Sociology, had notoriously low ones. What Bickel and gang showed was that women were applying in greater proportion to the more difficult programs rather than the easy ones, and so were getting rejected at higher rates. Men, strategically unambitious as always, were much more spread across the departments, and hence their slight disadvantage in odds was offset by the fact that more of them had sent their sweet nothings to the floozy departments. It was a tale with a statistical villain.&lt;/p&gt;
+
+&lt;p&gt;The villain’s name is &lt;a href=&quot;http://plato.stanford.edu/entries/paradox-simpson/&quot;&gt;Simpson’s Paradox&lt;/a&gt;. It is a statistical paradox that often arises when we calculate averages over aggregates. It sometimes happens that a statement may be true of every mixed subgroup (“Compared with men, women have a slightly higher odds of getting admitted to engineering or humanities or sciences or architecture or….”), but when you aggregate over &lt;em&gt;all&lt;/em&gt; the groups, the statement turns false (“Overall, women have a significantly lower odds of getting admitted”). Simpson’s Paradox— that is, the &lt;em&gt;potential&lt;/em&gt; for the paradox— plagues mixtures, heterogeneity, population studies of all kinds. It is perhaps the closest thing there is to the problem of evil in statistics.&lt;/p&gt;
+
+&lt;p&gt;So how is all this relevant to science fiction? Well, say there’s this fantasy world with two groups (genders) of writers (candidates): West and Other. Both groups have more or less the same distribution of talent. There are fewer Other writers than Western ones, and some chaps belong to both groups, but never mind that. Writers send in their stories to SF&amp;amp;F outlets (departments). Each outlet’s acceptance (admission) procedure is decided by an Editor. Not all the outlets are equally easy. Even though most outlets are in the West, the Others have a slightly better chance on a per outlet basis (because editors in this world act to encourage new voices). However, it turns out that the Others mostly apply to the harder-to-get-into outlets. Why? Well, these are the well-known ones, and if you’re in Pune, India, why send a story to the Vampire Gnome Anthology, when for the same time and postal expense and much greater potential benefit, you could send it to the New Yorker? And so it happens that there are great differences between acceptance rates for Westerners as compared to the Others. In this speculative world— hypothetical liberal world— Simpson’s Paradox, not racism, is the villain.&lt;/p&gt;
+
+&lt;p&gt;***&lt;/p&gt;
+
+&lt;h3 id=&quot;acknowledgements&quot;&gt;Acknowledgements:&lt;/h3&gt;
+
+&lt;p&gt;The &lt;a href=&quot;http://www.moillusions.com/impossible-dices-triangle-illusion/&quot; target=&quot;blank&quot;&gt;featured image&lt;/a&gt;
+is from James Dean’s wonderful site &lt;a href=&quot;http://www.moillusions.com/&quot; target=&quot;blank&quot;&gt;Mighty Optical Illusions&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 19 Oct 2009 19:45:00 -0400</pubDate>
+        <link>/anilmenon/simpsons-paradox-in-the-slush-pile/</link>
+        <guid isPermaLink="true">/anilmenon/simpsons-paradox-in-the-slush-pile/</guid>
+        
+        
+        <category>Mathematics</category>
+        
+        <category>Writing</category>
+        
+        <category>Writing/Science Fiction</category>
+        
+      </item>
+    
+      <item>
+        <title>Moonshot</title>
+        <description>&lt;p&gt;All right, &lt;label for=&quot;wimmen1&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;wimmen1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;The featured image ↑ is actually of ISRO scientists celebrating the successful docking of the Mars Orbiter around Mars, on September 24, 2014, IST. &lt;/span&gt;
+let’s all calm down. Mars is still a few weeks away and the center of the galaxy will take at least a month. Maybe even two.&lt;/p&gt;
+
+&lt;p&gt;Who cares!!!!! Chandrayaan I of 2,4,5, 10 Million buts and bolts is on its way to the moon. The moon! The moon. The goddamn moon! I’m so thrilled I could bark. I am, actually.&lt;/p&gt;
+
+&lt;p&gt;It seems the payload has to be under 1500 kg, which worried me. 1500 kgs means there’s space for about 18 dancers (80 kgs/dancer), and with eight dancers for the hero and eight for the heroine, that leaves a total of just 80 kgs for the 11 scientific payloads. Tight. Very tight. Still, if the damn vehicle managed to crawl through the Indian bureaucracy, anything is feasible.&lt;/p&gt;
+
+&lt;p&gt;What a long, long wait it has been. The Sanskrit poets had been tempting us for &lt;em&gt;centuries&lt;/em&gt;. Just listen to Sarva:&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;The moon that spreads its rays jasmine-white  
+as lovely as the breast of a Kashmiri girl  
+and its mark, as waterlily-dark,  
+is like the painting of her breast with musk.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;I can’t confirm the accuracy of the simile, alas, but the man sounds like he knows what he’s talking about. At any rate, if that doesn’t motivate an astronomer to fiddle with his astrolabe, I don’t know what will.&lt;/p&gt;
+
+&lt;p&gt;“Chandrayaan,” as the newspapers tell us, is “ancient” Sanskrit for “moon vehicle.” Ancient Sanskrit is Vedic Sanskrit, and Chandrayaan is probably more like “post-vedic” Sanskrit usage, even though both pieces (Chandra and yaan) do appear in the Rig-ved. The word “Soma” is often used as a synonym for the moon (sometime visualized as the cup containing soma, the ambrosia of the Gods, namely, Heineken beer) so perhaps Chandrayaan could also be converse-translated as “beer-vehicle” in ancient English.&lt;/p&gt;
+
+&lt;p&gt;And Soma is what our ancients should be tippling at the moment. That Chandrayaan is making its way towards the vaulting arch of heaven is due in part to all those long centuries of slokas, sutras, shastras and smritis. Let a poet (Dharmakirti) have the last say:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;The East has borne the Moon.  
+Love dances and the nymphs
+of the directions laugh,  
+while the wind scatters holi,  
+the pollen of waterlilies,
+through heaven&apos;s court.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Shubh yatra, Chandrayaan.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 22 Oct 2008 03:58:54 -0400</pubDate>
+        <link>/anilmenon/moonshot/</link>
+        <guid isPermaLink="true">/anilmenon/moonshot/</guid>
+        
+        
+        <category>Science</category>
+        
+        <category>Technology</category>
+        
+      </item>
+    
   </channel>
 </rss>

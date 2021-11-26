@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>The God of Small Things</title>
+  <meta name="description" content="A paen to R. L. Goodstein's miraculous theorem in Proof theory. What's it about? The God of Small Things of course.">
+
+  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+  
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+  
+  
+  <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: [
+      "MathMenu.js",
+      "MathZoom.js",
+      "AssistiveMML.js",
+      "a11y/accessibility-menu.js"
+    ],
+    jax: ["input/TeX", "output/CommonHTML"],
+    TeX: {
+      extensions: [
+        "AMSmath.js",
+        "AMSsymbols.js",
+        "noErrors.js",
+        "noUndefined.js",
+      ]
+    }
+  });
+</script>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+ <!--   <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+  
+
+  <link rel="stylesheet" type="text/css" href="/anilmenon/css/tufte.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/anilmenon/css/print.css" media="print"> -->
+
+  <!-- AM: contain class definitions specific to Anil Menon's site [ -->
+  <link rel="stylesheet" type="text/css" href="/anilmenon/css/menon.css">
+  <!-- AM: ] -->
+
+  <link rel="canonical" href="/anilmenon/the-god-of-small-things/">
+
+  <link rel="alternate" type="application/rss+xml" title="Anil Menon's Website" href="/anilmenon/feed.xml" />
+</head>
+
+  
+  	<body >
+  
+	
+  <!--- Header and nav template site-wide -->
+<header>
+	<div class="nav-parent">
+	    <div class="logos1">
+		<a href="/anilmenon/">ANIL MENON</a>
+	    </div>
+	    <div class="theseparator"></div>
+	    
+	    
+		
+		
+		
+	    <div class=theitem1>
+		
+		    <a href="/anilmenon/about/">about</a>
+		
+	    </div>	
+		
+	    
+		
+		
+		
+	    <div class=theitem2>
+		
+		    <a href="/anilmenon/works/">novels</a>
+		
+	    </div>	
+		
+	    
+		
+		
+		
+	    <div class=theitem3>
+		
+		    <a href="/anilmenon/essays/">essays</a>
+		
+	    </div>	
+		
+	    
+		
+		
+		
+	    <div class=theitem4>
+		
+		    <a href="/anilmenon/anthologies/">anthologies</a>
+		
+	    </div>	
+		
+	    
+		
+		
+		
+	    <div class=theitem5>
+		
+		    <a href="/anilmenon/contact/">contact</a>
+		
+	    </div>	
+		
+	    
+	    <div class="thelastitem" ></div>
+	</div>
+
+
+
+
+</header>
+
+
+<!-- The CSS grid that makes up the entirety of the hero image/banner image area -->
+	<div class="post-frame">
+		<div class="post-title-div">
+		
+			<h1> The God of Small Things </h1>
+			<p class="subtitle">September 7, 2005</p>
+		
+		</div>
+		<div class="post-image-div">
+		
+	       <img class="mybanner-image" src="/anilmenon/assets/img/thegodofsmallthings/M13.1Hydra.jpg" alt="Hercules and the Hydra" />
+		
+		</div>
+		<div class="post-content-div">
+			 <article >
+	<a href=# id="top"></a>
+        <p><a href="https://en.wikipedia.org/wiki/Reuben_Goodstein" target="blank">Reuben Goodstein</a>’s remarkable <a href="https://en.wikipedia.org/wiki/Goodstein%27s_theorem" target="blank">theorem</a> is almost<label for="rus1" class="margin-toggle"> ⊕</label><input type="checkbox" id="rus1" class="margin-toggle" /><span class="marginnote">B. Russell &amp; A. Whitehead derive 1 + 1 = 2 after some 300 pages into their opus, <a href="https://quod.lib.umich.edu/cgi/t/text/pageviewer-idx?c=umhistmath&amp;cc=umhistmath&amp;idno=aat3201.0002.001&amp;frm=frameset&amp;view=image&amp;seq=126" target="blank"><em>Principia Mathematica</em></a>. They add the comment, ‘The above proposition is occasionally useful.’ </span> completely unknown outside of formal logic. It cannot be proved to be true via the logical arithmetical reasoning we use for proving stuff like there are an infinite number of prime numbers or 1 + 1 = 2. In other words, it is Turing-undecidable. Nonetheless, Goodstein proved his proposition using something called “second-order” arithmetic.</p>
+
+<p>Roger Penrose sees deep consequences in the fact that Goodstein’s mind was able to do so. Penrose’s claim, as I understand it, is that since human minds can derive theorems that a Turing machine cannot, it follows our minds are superior — or rather, Goodstein’s mind is superor — to a Turing machine. So what is this theorem about? First a bit of notation.</p>
+
+<p>Notation: \(2^k\) means 2 multiplied with itself, k times. Thus \(2^3 = 2 \times 2 \times 2 = 8\).</p>
+
+<p>(1)  Take any positive number. We’ll use the number 33 as a running example.</p>
+
+<p>(2) Write the number in base-2 representation. Example: \(33 =\)  \(= 2\times 2 \times 2\) \(\times 2 \times 2 + 1\) \(= 2^5 + 1\).</p>
+
+<p>(3) Express <em>everything</em> —<label for="hre1" class="margin-toggle"> ⊕</label><input type="checkbox" id="hre1" class="margin-toggle" /><span class="marginnote">This is called the <a href="http://mathworld.wolfram.com/HereditaryRepresentation.html" target="blank">hereditary</a> representation of a number. </span> even the the powers — in base-2. Example: \(33 =\) \(2^5 + 1\) \(= 2^{(2^2 + 1)} + 1\).</p>
+
+<p>(4) Increase the base by 1.  Example: the base is currently 2, so we increase it to 3. That is, \(33 =\) \(2^{(2^2 + 1)}\) \(+ 1\) \(\longrightarrow\) \(3^{(3^3 + 1)} + 1 = 22876792454962.\)</p>
+
+<p>(5) Decrease the number obtained in the last step by 1. Example: \(22876792454962\) \(= 3^{(3^3 + 1)}\) \(+ 1 \longrightarrow  3^{(3^3 + 1)}\) \(= 22876792454961.\)</p>
+
+<p>(6) Repeat steps (1) through (5) to the number obtained in the previous step (in this
+example, \(22876792454961\)).</p>
+
+<p>What do you think will happen? Out intuition would suggest that the number will get larger and larger and larger, since base increases have much more impact than the tiny reductions by 1. In the running example, after step (4), the number<label for="thm1" class="margin-toggle">⊕</label><input type="checkbox" id="thm1" class="margin-toggle" /><span class="marginnote"><img class="fullwidth" src="/anilmenon/assets/img/thegodofsmallthings/Goodstein.jpg" /><br />Goodstein, R. L. On the Restricted Ordinal Theorem. <em>J. Symb. Logic</em> 9, 33-41, 1944.</span> went from 33 to 22876792454962 after a <em>single</em> base increase from 2 to 3. Whereas after step (5), the number was merely reduced by one. Obviously, if we keep repeating this process (base increase followed by reduction by 1), the numbers are surely going to head for Carl Sagan territory. Right?</p>
+
+<p>Wrong. R. L. Goodstein proved that these small decreases by 1 will eventually make the sequence converge to… ZERO!</p>
+
+<p>Initially, the increases in base do generate larger and larger numbers, but the decrements in step 5 take their fatal toll and eventually converges the sequence to zero. It is death by a googol of pinpricks.</p>
+
+<p>Amazing, right? Here’s an even more amazing consequence. Remember the myth of <a href="https://en.wikipedia.org/wiki/Lernaean_Hydra" target="blank">Hercules and the Hydra</a>? It’s impossible to kill the Hydra because every time you chop off one of its heads, the Hydra spawns more heads. If you think about it, this a bit like the five steps above.<label for="kir1" class="margin-toggle"> ⊕</label><input type="checkbox" id="kir1" class="margin-toggle" /><span class="marginnote">Kirby, L. &amp; Paris, J. Accessible Independence Results for Peano Arithmetic. <em>Bulletin of the London Mathematical Society</em>, 14(4): 285, 1982. </span> Goodstein’s number is a kind of mathematical Hydra. Mathematicians Laurence Kirby and Jeff Paris formalized this lovely metaphor and proved that the single neck chops will eventually slay the Hydra.</p>
+
+<p>So how did Goodstein prove his wonderful theorem if it can be proved using the usual proof techniques of arithmetic? The problem is with the ordinary mathematical induction. By using a stronger form of induction known as <a href="http://en.wikipedia.org/wiki/Transfinite_induction" target="_blank">transfinite induction</a>, he was able to prove his proposition.</p>
+
+<p>Reuben Goodstein’s theorem: a mathematical version of the God of Small Things, so to speak. Why did Arundhati Roy take so many pages?</p>
+
+<h3 id="acknowledgments">Acknowledgments</h3>
+
+<p>The featured image (Hercules battling the Lernaean Hydra, attrib. ca. 525 B.C.) is
+from The J. Paul Getty Museum, Malibu. Catalogue: <a href="https://www.theoi.com/Gallery/M13.1.html">Malibu 83.AE.346</a>.</p>
+
+<!--
+TODO: This seems to work, but deferrred for later.
+
+
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    
+    var disqus_config = function () {
+    this.page.url = '/the-god-of-small-things/';  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = '/the-god-of-small-things/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+   /
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://rounddice.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<script src="https://rounddice.disqus.com/embed.js"></script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	
+
+-->
+
+	$$~$$
+	<div class="post-nav">
+	<p>
+	  
+	  <a href="/anilmenon/a-perfect-tale/">☜&nbsp;A Perfect Tale</a>
+	  
+	</p>
+	<p> 
+	 <!-- a href="#top"><div class=rotateunicode>☞</div></a -->
+	 <a href="#top">&uarr;</a>
+	</p>
+	<p> 
+	  
+	  <a href="/anilmenon/caste-closure-contagion/">Caste, Closure & Contagion&nbsp;☞</a>
+	  
+	</p>
+	</div>
+	</article>
+	
+
+		</div>
+	</div>
+	<span class="print-footer">The God of Small Things - September 7, 2005 - Anil Menon</span>
+	<footer>
+  <hr class="slender">
+  <ul class="footer-links">
+    <li><a href="mailto:hate@spam.net"><span class="icon-mail3"></span></a></li>    
+    
+      <li>
+        <a href="//www.twitter.com/twitter_handle"><span class="icon-twitter"></span></a>
+      </li>
+    
+      <li>
+        <a href="//plus.google.com/+googlePlusName"><span class="icon-google2"></span></a>
+      </li>
+    
+      <li>
+        <a href="//github.com/GithubHandle"><span class="icon-github"></span></a>
+      </li>
+    
+      <li>
+        <a href="//www.flickr.com/photos/FlickrUserID"><span class="icon-flickr3"></span></a>
+      </li>
+    
+      <li>
+        <a href="/feed"><span class="icon-rss2"></span></a>
+      </li>
+    
+      <li>
+        <a href="//vimeo.com/vimeo-id"><span class="icon-vimeo2"></span></a>
+      </li>
+    
+      <li>
+        <a href="//www.linkedin.com/"><span class="icon-linkedin"></span></a>
+      </li>
+      
+  </ul>
+<div class="credits">
+<span>&copy; 2021 &nbsp;&nbsp;ANIL MENON</span></br> <br>
+</div>  
+</footer>
+
+	</body>
+</html>

@@ -1,8 +1,131 @@
----
-layout: default
-title: anthologies
----
-<h1 class="content-listing-header sans">Anthologies</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>anthologies</title>
+  <meta name="description" content="Anil Menon's Website">
+
+  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+  
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+  
+  
+  <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: [
+      "MathMenu.js",
+      "MathZoom.js",
+      "AssistiveMML.js",
+      "a11y/accessibility-menu.js"
+    ],
+    jax: ["input/TeX", "output/CommonHTML"],
+    TeX: {
+      extensions: [
+        "AMSmath.js",
+        "AMSsymbols.js",
+        "noErrors.js",
+        "noUndefined.js",
+      ]
+    }
+  });
+</script>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+ <!--   <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+  
+
+  <link rel="stylesheet" type="text/css" href="/anilmenon/css/tufte.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/anilmenon/css/print.css" media="print"> -->
+
+  <!-- AM: contain class definitions specific to Anil Menon's site [ -->
+  <link rel="stylesheet" type="text/css" href="/anilmenon/css/menon.css">
+  <!-- AM: ] -->
+
+  <link rel="canonical" href="/anilmenon/anthologies/">
+
+  <link rel="alternate" type="application/rss+xml" title="Anil Menon's Website" href="/anilmenon/feed.xml" />
+</head>
+
+  
+  	<body >
+  
+  <!--- Header and nav template site-wide -->
+<header>
+	<div class="nav-parent">
+	    <div class="logos1">
+		<a href="/anilmenon/">ANIL MENON</a>
+	    </div>
+	    <div class="theseparator"></div>
+	    
+	    
+		
+		
+		
+	    <div class=theitem1>
+		
+		    <a href="/anilmenon/about/">about</a>
+		
+	    </div>	
+		
+	    
+		
+		
+		
+	    <div class=theitem2>
+		
+		    <a href="/anilmenon/works/">novels</a>
+		
+	    </div>	
+		
+	    
+		
+		
+		
+	    <div class=theitem3>
+		
+		    <a href="/anilmenon/essays/">essays</a>
+		
+	    </div>	
+		
+	    
+		
+		
+		
+	    <div class=theitem4>
+		
+		    <a href="/anilmenon/anthologies/" class="active">anthologies</a>
+		
+	    </div>	
+		
+	    
+		
+		
+		
+	    <div class=theitem5>
+		
+		    <a href="/anilmenon/contact/">contact</a>
+		
+	    </div>	
+		
+	    
+	    <div class="thelastitem" ></div>
+	</div>
+
+
+
+
+</header>
+
+    <article class="group">
+      <h1 class="content-listing-header sans">Anthologies</h1>
 
 <!-- 
      <div class="gallery-grid-container">
@@ -24,18 +147,179 @@ title: anthologies
 	<div class="gal-wrapper" >
 	<div class="gal-grid" >
 
-	{% assign numitems = site.data.anthos | size   %}
-	{% assign numitems1 = numitems | minus: 1 %}
+	
+	
 
 
-	{% for i in (0..numitems1) %}
+	
 		<div class="gal-frame">
-		{% assign item = site.data.anthos[i] %}
-		{% unless item.exclude %}
-			<a href="{{ item.url }}" title="{{ item.friendly }}"><img src ="{{ item.cover | prepend: site.baseurl }}" class="gal-img" title="{{ item.friendly }}"></a>
-		{% endunless %}
+		
+		
+			<a href="https://www.simonandschuster.com/books/New-Suns/Nisi-Shawl/9781781085783" title="New Suns 1 Anthology"><img src ="/anilmenon/assets/img/wp-content/uploads/Newsuns1scaled.jpg" class="gal-img" title="New Suns 1 Anthology"></a>
+		
 		</div>
-	{% endfor %}
+	
+		<div class="gal-frame">
+		
+		
+			<a href="https://www.simonandschuster.com/books/The-Years-Best-Science-Fiction-Vol-1/Jonathan-Strahan/9781534449596" title="Year's Best SF 2021 Anthology"><img src ="/anilmenon/assets/img/wp-content/uploads/StrahanYBSF2021scaled.jpg" class="gal-img" title="Year's Best SF 2021 Anthology"></a>
+		
+		</div>
+	
+		<div class="gal-frame">
+		
+		
+			<a href="https://www.hmhbooks.com/shop/books/The-Best-American-Science-Fiction-and-Fantasy-2021/9780358469964" title="Year's Best SF 2021 Anthology"><img src ="/anilmenon/assets/img/wp-content/uploads/JohnJayAdamsYBSF2021scaled.jpg" class="gal-img" title="Year's Best SF 2021 Anthology"></a>
+		
+		</div>
+	
+		<div class="gal-frame">
+		
+		
+			<a href="https://www.hachetteindia.com/TitleDetails.aspx?titleId=46653" title="Gollancz 1 Anthology"><img src ="/anilmenon/assets/img/wp-content/uploads/Gollancz1scaled.jpg" class="gal-img" title="Gollancz 1 Anthology"></a>
+		
+		</div>
+	
+		<div class="gal-frame">
+		
+		
+			<a href="https://press.uchicago.edu/ucp/books/book/distributed/S/bo18089618.html" title="Shrapnel Minima Anthology"><img src ="/anilmenon/assets/img/wp-content/uploads/shrapnelminima200b300.gif" class="gal-img" title="Shrapnel Minima Anthology"></a>
+		
+		</div>
+	
+		<div class="gal-frame">
+		
+		
+			<a href="https://www.goodreads.com/book/show/17571738-end-of-the-road" title="End of the Road Anthology"><img src ="/anilmenon/assets/img/wp-content/uploads/eotr200b300.gif" class="gal-img" title="End of the Road Anthology"></a>
+		
+		</div>
+	
+		<div class="gal-frame">
+		
+		
+			<a href="http://www.wheatlandpress.com/tel/index.html" title="Tel:Stories Anthology"><img src ="/anilmenon/assets/img/wp-content/uploads/telstories200b300.gif" class="gal-img" title="Tel:Stories Anthology"></a>
+		
+		</div>
+	
+		<div class="gal-frame">
+		
+		
+			<a href="http://shocklines.stores.yahoo.net/frtrbbyjhaan.html" title="From The Trenches Anthology"><img src ="/anilmenon/assets/img/wp-content/uploads/fromthetrenches200b300.gif" class="gal-img" title="From The Trenches Anthology"></a>
+		
+		</div>
+	
+		<div class="gal-frame">
+		
+		
+			<a href="http://www.amazon.com/Time-Bedlam-Saltboy-Bookmakers/dp/1411654382/ref=sr_1_1?ie=UTF8&qid=1241023075&sr=1-1" title="Time For Bedlam Anthology"><img src ="/anilmenon/assets/img/wp-content/uploads/timeforbedlam200b300.gif" class="gal-img" title="Time For Bedlam Anthology"></a>
+		
+		</div>
+	
+		<div class="gal-frame">
+		
+		
+			<a href="http://www.penguinbooksindia.com/index.aspx" title="Shockwave Anthology"><img src ="/anilmenon/assets/img/wp-content/uploads/shockwave200b300.gif" class="gal-img" title="Shockwave Anthology"></a>
+		
+		</div>
+	
+		<div class="gal-frame">
+		
+		
+			<a href="\#" title="Return Of The Raven Anthology"><img src ="/anilmenon/assets/img/wp-content/uploads/returnraven200b300.gif" class="gal-img" title="Return Of The Raven Anthology"></a>
+		
+		</div>
+	
+		<div class="gal-frame">
+		
+		
+			<a href="http://www.apexbookcompany.com/cart.php?m=product_detail&#038;p=86" title="Apex World SF  Anthology"><img src ="/anilmenon/assets/img/wp-content/uploads/apexbookofworldsf200b300.gif" class="gal-img" title="Apex World SF  Anthology"></a>
+		
+		</div>
+	
+		<div class="gal-frame">
+		
+		
+			<a href="http://www.lulu.com/content/e-book/the-tangled-bank-love-wonder-and-evolution/8340048" title="Tangled Bank Anthology"><img src ="/anilmenon/assets/img/wp-content/uploads/tangledbank200b300.gif" class="gal-img" title="Tangled Bank Anthology"></a>
+		
+		</div>
+	
+		<div class="gal-frame">
+		
+		
+			<a href="http://www.pspublishing.co.uk/exotic-gothic-5--volume-2-edited-by-danel-olson-1766-p.asp" title="Gothic Vol. 5 Anthology"><img src ="/anilmenon/assets/img/wp-content/uploads/exgoth5v2.gif" class="gal-img" title="Gothic Vol. 5 Anthology"></a>
+		
+		</div>
+	
+		<div class="gal-frame">
+		
+		
+			<a href="http://www.rosariumpublishing.com/rosarium-books-mothership.html" title="Mothership Anthology"><img src ="/anilmenon/assets/img/wp-content/uploads/mothership200b300.gif" class="gal-img" title="Mothership Anthology"></a>
+		
+		</div>
+	
+		<div class="gal-frame">
+		
+		
+			<a href="http://tinyurl.com/qxr6lst" title="Music of the Stars Anthology"><img src ="/anilmenon/assets/img/wp-content/uploads/musicofthestars-fc.gif" class="gal-img" title="Music of the Stars Anthology"></a>
+		
+		</div>
+	
+		<div class="gal-frame">
+		
+		
+			<a href="http://tinyurl.com/qxr6lst" title="Sports Stories Anthology"><img src ="/anilmenon/assets/img/wp-content/uploads/sportantho200b300.gif" class="gal-img" title="Sports Stories Anthology"></a>
+		
+		</div>
+	
+		<div class="gal-frame">
+		
+		
+		</div>
+	
 	
 	</div><!-- end wrapper-->
 	</div><!-- end container -->
+
+    </article>
+  <span class="print-footer">anthologies - Anil Menon</span>
+  <footer>
+  <hr class="slender">
+  <ul class="footer-links">
+    <li><a href="mailto:hate@spam.net"><span class="icon-mail3"></span></a></li>    
+    
+      <li>
+        <a href="//www.twitter.com/twitter_handle"><span class="icon-twitter"></span></a>
+      </li>
+    
+      <li>
+        <a href="//plus.google.com/+googlePlusName"><span class="icon-google2"></span></a>
+      </li>
+    
+      <li>
+        <a href="//github.com/GithubHandle"><span class="icon-github"></span></a>
+      </li>
+    
+      <li>
+        <a href="//www.flickr.com/photos/FlickrUserID"><span class="icon-flickr3"></span></a>
+      </li>
+    
+      <li>
+        <a href="/feed"><span class="icon-rss2"></span></a>
+      </li>
+    
+      <li>
+        <a href="//vimeo.com/vimeo-id"><span class="icon-vimeo2"></span></a>
+      </li>
+    
+      <li>
+        <a href="//www.linkedin.com/"><span class="icon-linkedin"></span></a>
+      </li>
+      
+  </ul>
+<div class="credits">
+<span>&copy; 2021 &nbsp;&nbsp;ANIL MENON</span></br> <br>
+</div>  
+</footer>
+
+  </body>
+</html>
