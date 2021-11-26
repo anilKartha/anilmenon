@@ -1,0 +1,23 @@
+
+
+
+	A. Steps to deploy a fresh directory to github
+
+	Create a new repo in GitHub. Make sure to leave the rep blank (no readme.md)
+
+	In _config.yml change baseurl to reflect the name of the GitHub repo.
+	For example, if it is anilKartha/anilmenon1
+		then baseurl: /anilmenon1
+ 
+	git init
+	git checkout -b gh-pages
+	git status
+	git add .
+	git commit -m "intial commit"
+	git remote add origin https://github.com/anilKartha/anilmenon.git
+		[git remote remove origin /if about throws an error]
+	git push origin gh-pages
+
+	B. Check ruby version.
+	C. gem pristine -all
+	D. jgd
